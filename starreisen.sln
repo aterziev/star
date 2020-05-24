@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "starreisen", "..\..\..\..\xampp\htdocs\starreisen2\starreisen\starreisen\starreisen.phpproj", "{CF57347A-B6E1-48D8-81C0-BFE541B55148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF57347A-B6E1-48D8-81C0-BFE541B55148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF57347A-B6E1-48D8-81C0-BFE541B55148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A22FC3F-C443-461D-B605-18769CEB5A69}
+	EndGlobalSection
+EndGlobal
