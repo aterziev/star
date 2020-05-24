@@ -15,10 +15,6 @@
     <IncludeDebugInformation>false</IncludeDebugInformation>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="dene\test.php" />
     <Compile Include="index.php" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="dene\" />
   </ItemGroup>
 </Project>
