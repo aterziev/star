@@ -6,11 +6,11 @@ preset:
 layout:
   /header/:
     -
-      - 'logo-3841 30'
-      - 'position-header 70'
+      - position-header
   /navigation/:
     -
-      - menu-4633
+      - 'logo-3841 20'
+      - 'menu-4633 80'
   /main/:
     -
       - position-breadcrumbs
@@ -45,6 +45,7 @@ structure:
 content:
   position-header:
     attributes:
+      enabled: 0
       key: header
   position-breadcrumbs:
     attributes:

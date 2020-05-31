@@ -1,5 +1,5 @@
 name: default
-timestamp: 1590928134
+timestamp: 1590967799
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -16,12 +16,12 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  logo:
-    logo-3841: Logo
   position:
     position-header: Header
     position-breadcrumbs: Breadcrumbs
     position-footer: Footer
+  logo:
+    logo-3841: Logo
   menu:
     menu-4633: Menu
   messages:

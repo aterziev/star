@@ -11,7 +11,7 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* menu/item.html.twig */
+/* @gantry-admin/menu/item.html.twig */
 class __TwigTemplate_3cd665cfb38e503ae6b2360d9abe722894126144043e433b40f2b24c1d49360d extends \Twig\Template
 {
     public function __construct(Environment $env)
@@ -140,7 +140,7 @@ class __TwigTemplate_3cd665cfb38e503ae6b2360d9abe722894126144043e433b40f2b24c1d4
 
     public function getTemplateName()
     {
-        return "menu/item.html.twig";
+        return "@gantry-admin/menu/item.html.twig";
     }
 
     public function isTraitable()
@@ -163,6 +163,6 @@ class __TwigTemplate_3cd665cfb38e503ae6b2360d9abe722894126144043e433b40f2b24c1d4
 
     public function getSourceContext()
     {
-        return new Source("", "menu/item.html.twig", "C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen\\administrator\\components\\com_gantry5\\templates\\menu\\item.html.twig");
+        return new Source("", "@gantry-admin/menu/item.html.twig", "C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen\\administrator\\components\\com_gantry5\\templates\\menu\\item.html.twig");
     }
 }

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen/templates/g5_hydrogen/custom/config/13/layout.yaml',
-    'modified' => 1590934817,
+    'modified' => 1590968712,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -12,16 +12,23 @@ return [
         ],
         'layout' => [
             '/header/' => [
-                
+                0 => [
+                    0 => 'logo-5959 15',
+                    1 => 'menu-6519 85'
+                ]
             ],
             '/navigation/' => [
-                0 => [
-                    0 => 'menu-6519'
-                ]
+                
             ],
             '/showcase/' => [
                 0 => [
                     0 => 'sample-1'
+                ],
+                1 => [
+                    0 => 'position-module-1444'
+                ],
+                2 => [
+                    0 => 'position-module-2836'
                 ]
             ],
             '/feature/' => [
@@ -32,7 +39,7 @@ return [
                     0 => 'system-messages-7171'
                 ],
                 1 => [
-                    0 => 'sample-2'
+                    0 => 'sample-9357'
                 ]
             ],
             '/subfeature/' => [
@@ -71,7 +78,9 @@ return [
             'showcase' => [
                 'type' => 'section',
                 'attributes' => [
-                    'boxed' => ''
+                    'boxed' => '2',
+                    'class' => '',
+                    'variations' => ''
                 ]
             ],
             'feature' => [
@@ -99,51 +108,72 @@ return [
             ]
         ],
         'content' => [
+            'logo-5959' => [
+                'title' => 'Logo / Image',
+                'attributes' => [
+                    'url' => '',
+                    'target' => '_self',
+                    'image' => 'gantry-media://headers/logo_104x62.png',
+                    'height' => '',
+                    'svg' => '',
+                    'class' => 'star-logo'
+                ],
+                'block' => [
+                    'fixed' => '1'
+                ]
+            ],
             'sample-1' => [
                 'title' => 'Gantry 5',
                 'attributes' => [
-                    'image' => 'gantry-assets://images/gantry5-logo.png',
+                    'enabled' => 0,
+                    'image' => 'gantry-assets://images/_star_images/facebook_banner.png',
                     'headline' => '',
-                    'description' => '<p>Gantry 5 is the most customizable and powerful version of the framework yet. Packed full of features such as <a href="http://docs.gantry.org/gantry5/configure/layout-manager">drag-and-drop layout creation</a> and the powerful particle system, Gantry 5 has been designed from the ground up to be lightning fast and hassle free.</p>',
-                    'link' => 'http://docs.gantry.org',
-                    'linktext' => 'Read More'
+                    'description' => '<p>Starreisen</p>',
+                    'link' => '#',
+                    'linktext' => '',
+                    'samples' => [
+                        
+                    ]
                 ]
             ],
-            'sample-2' => [
-                'title' => 'Getting Started',
+            'position-module-1444' => [
+                'title' => 'Module Instance',
                 'attributes' => [
-                    'description' => '<h1 class="center">Getting Started</h1>
-<div class="device-promo"><div class="macbook"><div class="macbook-color"></div></div><div class="ipad"><div class="ipad-color"></div></div><div class="iphone"><div class="iphone-color"></div></div></div><p>Welcome to Gantry 5 featuring <strong>Hydrogen</strong>, the first theme built on the Gantry 5 framework. If you want to get started, the best way is to navigate to the Gantry Administrator via your platform\'s Administration panel.</p>
-
-<p>Once you are in the Gantry 5 Administrator, you will be able to edit virtually every aspect of your site from its <strong>Layout</strong> to its <strong>Style</strong>. You can even refine how the menus appear using Gantry 5’s new <strong>Menu Editor</strong>.</p>
-
-<p>You can set different style preferences for different pages, and have them assigned accordingly using the <strong>Assignments</strong> administrative panel.</p>
-
-<div class="info-box"><div class="fa fa-graduation-cap float-left"></div><p>Look for more information on Gantry 5 in our documentation, and stay tuned to the RocketTheme Blog for more information on new features and development updates as development continues.</p>
-
-<p><a href="http://docs.gantry.org" class="button">Learn More</a></p></div>
-
-<h1 class="center">How to Contribute</h1>
-
-<div class="g-grid">
-<div class="g-block size-37"><p>Thank you for using Gantry 5 and the Hydrogen theme. We welcome you to contribute to the project by submitting bug reports through <strong>GitHub</strong>, and/or submit your own code changes to the <strong>Gantry 5 project</strong> for consideration.</p>
-<p><a href="https://github.com/gantry/gantry5" class="button">Gantry 5 on GitHub</a></p>
-</div>
-<div class="g-block size-26 middle"><div class="fa fa-github-square"></div></div>
-
-<div class="g-block size-37"><p>If you would like to assist in creating documentation for Gantry 5, you can do so through the <strong>Gantry 5 Documentation</strong> project on <strong>GitHub</strong>.</p>
-<p><a href="https://github.com/gantry/docs" class="button">Gantry Docs on GitHub</a></p>
-</div>
-</div>
-
-<p>Once again, thank you for participating. We hope you enjoy testing Gantry 5 every bit as much as we have enjoyed creating it.</p>'
+                    'module_id' => '91',
+                    'key' => 'module-instance'
+                ]
+            ],
+            'position-module-2836' => [
+                'title' => 'Module Instance',
+                'attributes' => [
+                    'module_id' => '93',
+                    'key' => 'module-instance'
+                ]
+            ],
+            'sample-9357' => [
+                'title' => 'Sample Content',
+                'attributes' => [
+                    'image' => '',
+                    'headline' => '',
+                    'description' => '<p>
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+</p>',
+                    'link' => '',
+                    'linktext' => '',
+                    'samples' => [
+                        
+                    ]
                 ]
             ],
             'sample-3' => [
                 'title' => 'Key Features',
                 'attributes' => [
+                    'enabled' => 0,
+                    'image' => '',
                     'headline' => 'Key Features',
                     'description' => '<p>Gantry 5 is packed full of features created to empower the development of designs into fully functional layouts with the absolute minimum effort and fuss</p>',
+                    'link' => '',
+                    'linktext' => '',
                     'samples' => [
                         0 => [
                             'icon' => 'fa fa-code',
@@ -169,6 +199,11 @@ return [
             'position-footer' => [
                 'attributes' => [
                     'key' => 'footer'
+                ]
+            ],
+            'copyright-2844' => [
+                'attributes' => [
+                    'owner' => 'Star Reisen'
                 ]
             ],
             'social-2031' => [

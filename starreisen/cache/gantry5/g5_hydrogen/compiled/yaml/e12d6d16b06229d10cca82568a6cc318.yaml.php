@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen/templates/g5_hydrogen/custom/config/default/layout.yaml',
-    'modified' => 1590928134,
+    'modified' => 1590967799,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -13,13 +13,13 @@ return [
         'layout' => [
             '/header/' => [
                 0 => [
-                    0 => 'logo-3841 30',
-                    1 => 'position-header 70'
+                    0 => 'position-header'
                 ]
             ],
             '/navigation/' => [
                 0 => [
-                    0 => 'menu-4633'
+                    0 => 'logo-3841 20',
+                    1 => 'menu-4633 80'
                 ]
             ],
             '/main/' => [
@@ -75,6 +75,7 @@ return [
         'content' => [
             'position-header' => [
                 'attributes' => [
+                    'enabled' => 0,
                     'key' => 'header'
                 ]
             ],
