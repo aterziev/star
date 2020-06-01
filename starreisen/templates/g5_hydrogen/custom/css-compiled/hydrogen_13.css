@@ -564,14 +564,14 @@ hr {
 }
 /* line 1, templates/g5_hydrogen/scss/hydrogen/_header.scss */
 #g-header {
-  background: #a61f21;
+  background: #2b2b2b;
   color: #fff;
   position: relative;
   z-index: 3;
 }
 /* line 7, templates/g5_hydrogen/scss/hydrogen/_header.scss */
 #g-header a {
-  color: #eea3a4;
+  color: #919191;
 }
 /* line 9, templates/g5_hydrogen/scss/hydrogen/_header.scss */
 #g-header a:hover {
@@ -591,7 +591,7 @@ hr {
 /* line 17, templates/g5_hydrogen/scss/mixins/_nav.scss */
 /* line 18, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-main-nav .g-toplevel > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover {
-  background: #8c1a1c;
+  background: #1c1c1c;
 }
 /* line 22, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-main-nav .g-toplevel > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active {
@@ -603,7 +603,7 @@ hr {
 }
 /* line 29, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-main-nav .g-toplevel > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active.g-selected {
-  background: #8c1a1c;
+  background: #1c1c1c;
 }
 /* line 32, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-main-nav .g-toplevel > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active.g-selected > .g-menu-item-container {
@@ -611,7 +611,7 @@ hr {
 }
 /* line 41, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-main-nav .g-dropdown {
-  background: #8c1a1c;
+  background: #1c1c1c;
 }
 /* line 45, templates/g5_hydrogen/scss/mixins/_nav.scss */
 /* line 46, templates/g5_hydrogen/scss/mixins/_nav.scss */
@@ -622,7 +622,7 @@ hr {
 /* line 51, templates/g5_hydrogen/scss/mixins/_nav.scss */
 /* line 52, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-main-nav .g-sublevel > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover, #g-header .g-main-nav .g-sublevel > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active {
-  background: #7b1718;
+  background: #121212;
 }
 /* line 18, templates/g5_hydrogen/scss/hydrogen/_header.scss */
 #g-header .g-main-nav .g-toplevel {
@@ -644,15 +644,15 @@ hr {
 /* line 66, templates/g5_hydrogen/scss/mixins/_nav.scss */
 /* line 67, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-menu-hastouch .g-toplevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator {
-  border: 1px solid #c02426;
-  background: #951c1e;
+  border: 1px solid #3a3a3a;
+  background: #212121;
   border-radius: 0.1875rem;
   margin: -0.2rem 0 -0.2rem 0.5rem;
   padding: 0.2rem;
 }
 /* line 70, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-menu-hastouch .g-toplevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator:hover {
-  background: #84191a;
+  background: #171717;
 }
 /* line 76, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-menu-hastouch .g-toplevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator:after {
@@ -672,8 +672,8 @@ hr {
 /* line 98, templates/g5_hydrogen/scss/mixins/_nav.scss */
 /* line 99, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-menu-hastouch .g-standard .g-sublevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator, #g-header .g-fullwidth .g-sublevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator {
-  border: 1px solid #c02426;
-  background: #951c1e;
+  border: 1px solid #3a3a3a;
+  background: #212121;
   border-radius: 0.1875rem;
   padding: 0.1rem;
   margin-top: -0.1rem;
@@ -681,7 +681,7 @@ hr {
 }
 /* line 102, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-menu-hastouch .g-standard .g-sublevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator:hover, #g-header .g-fullwidth .g-sublevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator:hover {
-  background: #84191a;
+  background: #171717;
 }
 /* line 109, templates/g5_hydrogen/scss/mixins/_nav.scss */
 #g-header .g-menu-hastouch .g-standard .g-sublevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator:after, #g-header .g-fullwidth .g-sublevel > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator:after {
@@ -702,25 +702,25 @@ hr {
 /* line 1, templates/g5_hydrogen/scss/hydrogen/_showcase.scss */
 #g-showcase {
   padding: 1.5rem 0;
-  background-color: #722829;
-  color: #fff;
+  background-color: #efefef;
+  color: #2b2b2b;
 }
 /* line 9, templates/g5_hydrogen/scss/hydrogen/_showcase.scss */
 #g-showcase a {
-  color: #e5b4b5;
+  color: #fff;
 }
 /* line 11, templates/g5_hydrogen/scss/hydrogen/_showcase.scss */
 #g-showcase a:hover {
-  color: #fff;
+  color: #2b2b2b;
 }
 /* line 16, templates/g5_hydrogen/scss/hydrogen/_showcase.scss */
 #g-showcase h1, #g-showcase h2, #g-showcase h3, #g-showcase h4, #g-showcase h5, #g-showcase h6, #g-showcase strong {
-  color: #fff;
+  color: #2b2b2b;
 }
 /* line 20, templates/g5_hydrogen/scss/hydrogen/_showcase.scss */
 #g-showcase .button {
   background: #757575;
-  color: #fff;
+  color: #2b2b2b;
 }
 /* line 23, templates/g5_hydrogen/scss/hydrogen/_showcase.scss */
 #g-showcase .button:hover {
@@ -733,16 +733,16 @@ hr {
 /* line 31, templates/g5_hydrogen/scss/hydrogen/_showcase.scss */
 /* line 32, templates/g5_hydrogen/scss/hydrogen/_showcase.scss */
 #g-showcase .g-social a {
-  background: #5b2021;
+  background: #e0e0e0;
   border: none;
-  color: #fff;
+  color: #2b2b2b;
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   transition: background 0.2s;
 }
 /* line 37, templates/g5_hydrogen/scss/hydrogen/_showcase.scss */
 #g-showcase .g-social a:hover {
-  background: #893031;
+  background: #fefefe;
 }
 @media print {
   /* line 45, templates/g5_hydrogen/scss/hydrogen/_showcase.scss */

@@ -1,7 +1,7 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/hydrogen-joomla_13.css',
-    'timestamp' => 1590964937,
+    'timestamp' => 1590969818,
     'md5' => '260e0300ae2046544fd93ab496dc5366',
     'variables' => [
         'accent-color-1' => '#bf383a',
@@ -19,7 +19,7 @@ return [
         'feature-text-color' => '#666666',
         'footer-background' => '#ffffff',
         'footer-text-color' => '#666666',
-        'header-background' => '#a61f21',
+        'header-background' => '#2b2b2b',
         'header-text-color' => '#ffffff',
         'main-background' => '#ffffff',
         'main-text-color' => '#666666',
@@ -33,8 +33,8 @@ return [
         'offcanvas-width' => '17rem',
         'offcanvas-toggle-color' => '#ffffff',
         'offcanvas-toggle-visibility' => '\'1\'',
-        'showcase-background' => '#722829',
-        'showcase-text-color' => '#ffffff',
+        'showcase-background' => '#efefef',
+        'showcase-text-color' => '#2b2b2b',
         'subfeature-background' => '#f0f0f0',
         'subfeature-text-color' => '#666666',
         'preset' => '\'preset4\''

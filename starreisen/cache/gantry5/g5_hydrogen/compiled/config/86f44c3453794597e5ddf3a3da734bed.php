@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1590965646,
-    'checksum' => '266b8ad31c73dd2e561e52b721ba8f3b',
+    'timestamp' => 1590968924,
+    'checksum' => '23e142541c405336a3021eacec062098',
     'files' => [
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1590928134
+                'modified' => 1590967799
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/layout.yaml',
-                'modified' => 1590928134
+                'modified' => 1590967799
             ],
             'styles' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/styles.yaml',
@@ -302,7 +302,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1590928134,
+            'timestamp' => 1590967799,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -322,13 +322,13 @@ return [
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
-                'logo' => [
-                    'logo-3841' => 'Logo'
-                ],
                 'position' => [
                     'position-header' => 'Header',
                     'position-breadcrumbs' => 'Breadcrumbs',
                     'position-footer' => 'Footer'
+                ],
+                'logo' => [
+                    'logo-3841' => 'Logo'
                 ],
                 'menu' => [
                     'menu-4633' => 'Menu'
@@ -366,13 +366,13 @@ return [
             'layout' => [
                 '/header/' => [
                     0 => [
-                        0 => 'logo-3841 30',
-                        1 => 'position-header 70'
+                        0 => 'position-header'
                     ]
                 ],
                 '/navigation/' => [
                     0 => [
-                        0 => 'menu-4633'
+                        0 => 'logo-3841 20',
+                        1 => 'menu-4633 80'
                     ]
                 ],
                 '/main/' => [
@@ -428,6 +428,7 @@ return [
             'content' => [
                 'position-header' => [
                     'attributes' => [
+                        'enabled' => 0,
                         'key' => 'header'
                     ]
                 ],

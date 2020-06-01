@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1590968713,
-    'checksum' => 'f414fc7c8336da106d33ed9c11843ed0',
+    'timestamp' => 1590969816,
+    'checksum' => '155a7fad27a2c415f39d2c6e625d1905',
     'files' => [
         'templates/g5_hydrogen/custom/config/13' => [
             'index' => [
@@ -12,6 +12,10 @@ return [
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/13/layout.yaml',
                 'modified' => 1590968712
+            ],
+            'styles' => [
+                'file' => 'templates/g5_hydrogen/custom/config/13/styles.yaml',
+                'modified' => 1590969816
             ]
         ],
         'templates/g5_hydrogen/custom/config/default' => [
@@ -275,7 +279,7 @@ return [
                 'text-color' => '#666666'
             ],
             'header' => [
-                'background' => '#a61f21',
+                'background' => '#2b2b2b',
                 'text-color' => '#ffffff'
             ],
             'main' => [
@@ -300,9 +304,9 @@ return [
                 'toggle-visibility' => '1'
             ],
             'showcase' => [
-                'background' => '#722829',
+                'background' => '#efefef',
                 'image' => '',
-                'text-color' => '#ffffff'
+                'text-color' => '#2b2b2b'
             ],
             'subfeature' => [
                 'background' => '#f0f0f0',

@@ -1,24 +1,28 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1590967346,
-    'checksum' => '1417dbcdd9721f05e18c55ea5dfa8940',
+    'timestamp' => 1590969781,
+    'checksum' => '13b13d5c5e8d18b842ae17251199ab7d',
     'files' => [
         'templates/g5_hydrogen/custom/config/13' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/13/index.yaml',
-                'modified' => 1590967289
+                'modified' => 1590968712
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/13/layout.yaml',
-                'modified' => 1590967289
+                'modified' => 1590968712
+            ],
+            'styles' => [
+                'file' => 'templates/g5_hydrogen/custom/config/13/styles.yaml',
+                'modified' => 1590969744
             ]
         ]
     ],
     'data' => [
         'index' => [
             'name' => '13',
-            'timestamp' => 1590967289,
+            'timestamp' => 1590968712,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/home.png',
@@ -52,7 +56,7 @@ return [
                 ],
                 'module' => [
                     'position-module-1444' => 'Module Instance',
-                    'position-module-5422' => 'Module Instance'
+                    'position-module-2836' => 'Module Instance'
                 ],
                 'messages' => [
                     'system-messages-7171' => 'System Messages'
@@ -87,13 +91,12 @@ return [
             'layout' => [
                 '/header/' => [
                     0 => [
-                        0 => 'logo-5959'
+                        0 => 'logo-5959 15',
+                        1 => 'menu-6519 85'
                     ]
                 ],
                 '/navigation/' => [
-                    0 => [
-                        0 => 'menu-6519'
-                    ]
+                    
                 ],
                 '/showcase/' => [
                     0 => [
@@ -103,7 +106,7 @@ return [
                         0 => 'position-module-1444'
                     ],
                     2 => [
-                        0 => 'position-module-5422'
+                        0 => 'position-module-2836'
                     ]
                 ],
                 '/feature/' => [
@@ -188,9 +191,13 @@ return [
                     'attributes' => [
                         'url' => '',
                         'target' => '_self',
-                        'image' => 'gantry-media://headers/logo.png',
+                        'image' => 'gantry-media://headers/logo_104x62.png',
                         'height' => '',
-                        'svg' => ''
+                        'svg' => '',
+                        'class' => 'star-logo'
+                    ],
+                    'block' => [
+                        'fixed' => '1'
                     ]
                 ],
                 'sample-1' => [
@@ -214,10 +221,11 @@ return [
                         'key' => 'module-instance'
                     ]
                 ],
-                'position-module-5422' => [
+                'position-module-2836' => [
                     'title' => 'Module Instance',
                     'attributes' => [
-                        'module_id' => '93'
+                        'module_id' => '93',
+                        'key' => 'module-instance'
                     ]
                 ],
                 'sample-9357' => [
@@ -320,6 +328,23 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
                 'mobile-menu-7603' => [
                     'title' => 'Mobile Menu'
                 ]
+            ]
+        ],
+        'styles' => [
+            'preset' => 'preset4',
+            'accent' => [
+                'color-1' => '#bf383a'
+            ],
+            'header' => [
+                'background' => '#2b2b2b',
+                'text-color' => '#ffffff'
+            ],
+            'showcase' => [
+                'background' => '#efefef',
+                'text-color' => '#ffffff'
+            ],
+            'offcanvas' => [
+                'background' => '#722829'
             ]
         ]
     ]
