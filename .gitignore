@@ -262,3 +262,5 @@ __pycache__/
 /starreisen/_-installation
 /starreisen/configuration.php
 /starreisen/_info.php
+/starreisen/configuration-productive.php
+/db-exports/starreisen-01062020.sql
