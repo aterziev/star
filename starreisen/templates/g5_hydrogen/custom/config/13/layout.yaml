@@ -8,14 +8,14 @@ layout:
     -
       - 'logo-5959 15'
       - 'menu-6519 85'
-  /navigation/: {  }
-  /showcase/:
+  /navigation/:
     -
-      - sample-1
+      - position-module-7108
     -
-      - position-module-1444
+      - position-module-6880
     -
-      - position-module-2836
+      - position-module-7360
+  /showcase/: {  }
   /feature/: {  }
   /main/:
     -
@@ -76,26 +76,20 @@ content:
       class: star-logo
     block:
       fixed: '1'
-  sample-1:
-    title: 'Gantry 5'
-    attributes:
-      enabled: 0
-      image: 'gantry-assets://images/_star_images/facebook_banner.png'
-      headline: ''
-      description: '<p>Starreisen</p>'
-      link: '#'
-      linktext: ''
-      samples: {  }
-  position-module-1444:
+  position-module-7108:
     title: 'Module Instance'
     attributes:
       module_id: '91'
       key: module-instance
-  position-module-2836:
+  position-module-6880:
     title: 'Module Instance'
     attributes:
       module_id: '93'
       key: module-instance
+  position-module-7360:
+    title: 'Module Instance'
+    attributes:
+      module_id: '97'
   sample-9357:
     title: 'Sample Content'
     attributes:

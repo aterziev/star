@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <extension version="3.4" type="template" client="site" method="upgrade">
     <name>g5_hydrogen</name>
-    <version>5.4.34</version>
-    <creationDate>April 30, 2020</creationDate>
+    <version>5.4.37</version>
+    <creationDate>January 25, 2021</creationDate>
     <author>RocketTheme, LLC</author>
     <authorEmail>support@rockettheme.com</authorEmail>
     <authorUrl>http://www.rockettheme.com</authorUrl>
@@ -16,7 +16,6 @@
         <folder>admin</folder>
         <folder>blueprints</folder>
         <folder>config</folder>
-        <folder>custom</folder>
         <folder>fields</folder>
         <folder>fonts</folder>
         <folder>gantry</folder>
@@ -38,15 +37,13 @@
     </files>
 
     <positions>
-        <position>breadcrumbs</position>
         <position>debug</position>
         <position>footer</position>
-        <position>header</position>
     </positions>
 
     <config>
         <fields name="params" addfieldpath="/templates/g5_hydrogen/fields">
-            <fieldset name="advanced">
+            <fieldset name="basic">
                 <field name="warning" type="warning"/>
             </fieldset>
         </fields>

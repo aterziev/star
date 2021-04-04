@@ -8,4 +8,8 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-/* @import "custom.scss" */
+/* line 1, templates/g5_hydrogen/custom/scss/custom.scss */
+.custom p {
+  margin: 0;
+}
+/*# sourceMappingURL=custom_12.css.map */

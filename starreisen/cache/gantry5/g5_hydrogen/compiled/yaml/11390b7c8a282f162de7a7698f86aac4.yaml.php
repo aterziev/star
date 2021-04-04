@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/templates/g5_hydrogen/blueprints/styles/breakpoints.yaml',
-    'modified' => 1590928133,
+    'modified' => 1616585335,
     'data' => [
         'name' => 'Breakpoints',
         'description' => 'Breakpoint container sizes for different viewports',

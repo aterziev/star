@@ -1,27 +1,91 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1590968924,
-    'checksum' => '23e142541c405336a3021eacec062098',
+    'timestamp' => 1616608034,
+    'checksum' => 'aa1fce153d87173847fe40f1260ee2af',
     'files' => [
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1590967799
+                'modified' => 1616607569
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/layout.yaml',
-                'modified' => 1590967799
+                'modified' => 1616607569
+            ],
+            'particles/branding' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/branding.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/content' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/content.yaml',
+                'modified' => 1616606252
+            ],
+            'particles/contentarray' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/contentarray.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/copyright' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/copyright.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/custom' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/custom.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/date' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/date.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/logo' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/logo.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/menu' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/menu.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/messages' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/messages.yaml',
+                'modified' => 1616606252
+            ],
+            'particles/mobile-menu' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/mobile-menu.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/module' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/module.yaml',
+                'modified' => 1616606252
+            ],
+            'particles/position' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/position.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/sample' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/sample.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/social' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/social.yaml',
+                'modified' => 1616606251
+            ],
+            'particles/spacer' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/spacer.yaml',
+                'modified' => 1616606252
+            ],
+            'particles/totop' => [
+                'file' => 'templates/g5_hydrogen/custom/config/default/particles/totop.yaml',
+                'modified' => 1616606251
             ],
             'styles' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/styles.yaml',
-                'modified' => 1590928665
+                'modified' => 1616587266
             ]
         ],
         'templates/g5_hydrogen/config/default' => [
             'particles/logo' => [
                 'file' => 'templates/g5_hydrogen/config/default/particles/logo.yaml',
-                'modified' => 1590928133
+                'modified' => 1616585335
             ]
         ]
     ],
@@ -31,13 +95,13 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'branding' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'content' => 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry Framework</a>',
                 'css' => [
                     'class' => 'branding'
@@ -47,11 +111,12 @@ return [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'date' => [
                     'start' => 'now',
                     'end' => 'now'
-                ]
+                ],
+                'owner' => ''
             ],
             'custom' => [
                 'caching' => [
@@ -61,7 +126,7 @@ return [
                         'filter' => '0'
                     ]
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'twig' => '0',
                 'filter' => '0'
             ],
@@ -71,74 +136,81 @@ return [
                 ],
                 'enabled' => '1',
                 'target' => '_self',
-                'link' => true,
+                'link' => '1',
                 'url' => '',
                 'image' => 'gantry-assets://images/gantry5-logo.png',
                 'text' => 'Gantry 5',
-                'class' => 'gantry-logo'
+                'class' => 'gantry-logo',
+                'height' => '',
+                'svg' => ''
             ],
             'menu' => [
                 'caching' => [
                     'type' => 'menu'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'menu' => '',
                 'base' => '/',
-                'startLevel' => 1,
-                'maxLevels' => 0,
-                'renderTitles' => 0,
-                'hoverExpand' => 1,
-                'mobileTarget' => 0,
-                'forceTarget' => 0
+                'startLevel' => '1',
+                'maxLevels' => '0',
+                'renderTitles' => '0',
+                'hoverExpand' => '1',
+                'mobileTarget' => '0',
+                'forceTarget' => '0'
             ],
             'mobile-menu' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'social' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'social'
                 ],
                 'target' => '',
-                'display' => 'both'
+                'display' => 'both',
+                'title' => '',
+                'items' => [
+                    
+                ]
             ],
             'spacer' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true
+                'enabled' => '1'
             ],
             'totop' => [
                 'caching' => [
                     'type' => 'static'
                 ],
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'totop'
-                ]
+                ],
+                'icon' => '',
+                'content' => '',
+                'title' => ''
             ],
             'analytics' => [
                 'enabled' => true,
                 'ua' => [
-                    'anonym' => false,
-                    'ssl' => false,
-                    'debug' => false
+                    'anonym' => false
                 ]
             ],
             'assets' => [
                 'enabled' => true
             ],
             'content' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'contentarray' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'article' => [
                     'filter' => [
                         'featured' => ''
@@ -157,18 +229,21 @@ return [
                             'type' => 'intro',
                             'limit' => '',
                             'formatting' => 'text',
-                            'prepare' => false
+                            'prepare' => '0'
                         ],
-                        'edit' => false,
+                        'edit' => '0',
                         'title' => [
-                            'enabled' => 'show'
+                            'enabled' => 'show',
+                            'limit' => ''
                         ],
                         'date' => [
                             'enabled' => 'published',
                             'format' => 'l, F d, Y'
                         ],
                         'read_more' => [
-                            'enabled' => 'show'
+                            'enabled' => 'show',
+                            'label' => '',
+                            'css' => ''
                         ],
                         'author' => [
                             'enabled' => 'show'
@@ -184,10 +259,16 @@ return [
                         'orderby' => 'publish_up',
                         'ordering' => 'ASC'
                     ]
+                ],
+                'css' => [
+                    'class' => ''
+                ],
+                'extra' => [
+                    
                 ]
             ],
             'date' => [
-                'enabled' => true,
+                'enabled' => '1',
                 'css' => [
                     'class' => 'date'
                 ],
@@ -214,13 +295,15 @@ return [
                 'enabled' => true
             ],
             'messages' => [
-                'enabled' => true
+                'enabled' => '1'
             ],
             'module' => [
-                'enabled' => true
+                'enabled' => '1',
+                'chrome' => ''
             ],
             'position' => [
-                'enabled' => true
+                'enabled' => '1',
+                'chrome' => ''
             ]
         ],
         'page' => [
@@ -302,54 +385,29 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1590967799,
+            'timestamp' => 1616607569,
             'version' => 7,
             'preset' => [
-                'image' => 'gantry-admin://images/layouts/default.png',
-                'name' => 'default',
-                'timestamp' => 1590928134
+                'image' => 'gantry-admin://images/layouts/home.png',
+                'name' => 'home',
+                'timestamp' => 1616585335
             ],
             'positions' => [
-                'header' => 'Header',
-                'breadcrumbs' => 'Breadcrumbs',
-                'footer' => 'Footer'
+                
             ],
             'sections' => [
                 'header' => 'Header',
                 'navigation' => 'Navigation',
+                'showcase' => 'Showcase',
+                'feature' => 'Feature',
+                'subfeature' => 'Subfeature',
                 'main' => 'Main',
                 'footer' => 'Footer',
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
-                'position' => [
-                    'position-header' => 'Header',
-                    'position-breadcrumbs' => 'Breadcrumbs',
-                    'position-footer' => 'Footer'
-                ],
                 'logo' => [
-                    'logo-3841' => 'Logo'
-                ],
-                'menu' => [
-                    'menu-4633' => 'Menu'
-                ],
-                'messages' => [
-                    'system-messages-5763' => 'System Messages'
-                ],
-                'content' => [
-                    'system-content-4780' => 'Page Content'
-                ],
-                'copyright' => [
-                    'copyright-5565' => 'Copyright'
-                ],
-                'spacer' => [
-                    'spacer-3578' => 'Spacer'
-                ],
-                'branding' => [
-                    'branding-4442' => 'Branding'
-                ],
-                'mobile-menu' => [
-                    'mobile-menu-5694' => 'Mobile-menu'
+                    'logo-1124' => 'Logo / Image'
                 ]
             ],
             'inherit' => [
@@ -359,47 +417,36 @@ return [
         'layout' => [
             'version' => 2,
             'preset' => [
-                'image' => 'gantry-admin://images/layouts/default.png',
-                'name' => 'default',
-                'timestamp' => 1590928134
+                'image' => 'gantry-admin://images/layouts/home.png',
+                'name' => 'home',
+                'timestamp' => 1616585335
             ],
             'layout' => [
                 '/header/' => [
-                    0 => [
-                        0 => 'position-header'
-                    ]
+                    
                 ],
                 '/navigation/' => [
+                    
+                ],
+                '/showcase/' => [
                     0 => [
-                        0 => 'logo-3841 20',
-                        1 => 'menu-4633 80'
+                        0 => 'logo-1124'
                     ]
+                ],
+                '/feature/' => [
+                    
                 ],
                 '/main/' => [
-                    0 => [
-                        0 => 'position-breadcrumbs'
-                    ],
-                    1 => [
-                        0 => 'system-messages-5763'
-                    ],
-                    2 => [
-                        0 => 'system-content-4780'
-                    ]
+                    
+                ],
+                '/subfeature/' => [
+                    
                 ],
                 '/footer/' => [
-                    0 => [
-                        0 => 'position-footer'
-                    ],
-                    1 => [
-                        0 => 'copyright-5565 40',
-                        1 => 'spacer-3578 30',
-                        2 => 'branding-4442 30'
-                    ]
+                    
                 ],
                 'offcanvas' => [
-                    0 => [
-                        0 => 'mobile-menu-5694'
-                    ]
+                    
                 ]
             ],
             'structure' => [
@@ -414,8 +461,27 @@ return [
                         'boxed' => ''
                     ]
                 ],
+                'showcase' => [
+                    'type' => 'section',
+                    'attributes' => [
+                        'boxed' => ''
+                    ]
+                ],
+                'feature' => [
+                    'type' => 'section',
+                    'attributes' => [
+                        'boxed' => ''
+                    ]
+                ],
                 'main' => [
                     'attributes' => [
+                        'boxed' => ''
+                    ]
+                ],
+                'subfeature' => [
+                    'type' => 'section',
+                    'attributes' => [
+                        'class' => 'flush',
                         'boxed' => ''
                     ]
                 ],
@@ -426,20 +492,10 @@ return [
                 ]
             ],
             'content' => [
-                'position-header' => [
+                'logo-1124' => [
+                    'title' => 'Logo / Image',
                     'attributes' => [
-                        'enabled' => 0,
-                        'key' => 'header'
-                    ]
-                ],
-                'position-breadcrumbs' => [
-                    'attributes' => [
-                        'key' => 'breadcrumbs'
-                    ]
-                ],
-                'position-footer' => [
-                    'attributes' => [
-                        'key' => 'footer'
+                        'image' => 'gantry-assets://images/gantry5-logo.png'
                     ]
                 ]
             ]

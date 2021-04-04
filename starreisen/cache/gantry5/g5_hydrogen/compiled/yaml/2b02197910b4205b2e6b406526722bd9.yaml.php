@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/templates/g5_hydrogen/custom/config/13/layout.yaml',
-    'modified' => 1590968712,
+    'modified' => 1616607868,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -18,18 +18,18 @@ return [
                 ]
             ],
             '/navigation/' => [
-                
-            ],
-            '/showcase/' => [
                 0 => [
-                    0 => 'sample-1'
+                    0 => 'position-module-7108'
                 ],
                 1 => [
-                    0 => 'position-module-1444'
+                    0 => 'position-module-6880'
                 ],
                 2 => [
-                    0 => 'position-module-2836'
+                    0 => 'position-module-7360'
                 ]
+            ],
+            '/showcase/' => [
+                
             ],
             '/feature/' => [
                 
@@ -122,32 +122,24 @@ return [
                     'fixed' => '1'
                 ]
             ],
-            'sample-1' => [
-                'title' => 'Gantry 5',
-                'attributes' => [
-                    'enabled' => 0,
-                    'image' => 'gantry-assets://images/_star_images/facebook_banner.png',
-                    'headline' => '',
-                    'description' => '<p>Starreisen</p>',
-                    'link' => '#',
-                    'linktext' => '',
-                    'samples' => [
-                        
-                    ]
-                ]
-            ],
-            'position-module-1444' => [
+            'position-module-7108' => [
                 'title' => 'Module Instance',
                 'attributes' => [
                     'module_id' => '91',
                     'key' => 'module-instance'
                 ]
             ],
-            'position-module-2836' => [
+            'position-module-6880' => [
                 'title' => 'Module Instance',
                 'attributes' => [
                     'module_id' => '93',
                     'key' => 'module-instance'
+                ]
+            ],
+            'position-module-7360' => [
+                'title' => 'Module Instance',
+                'attributes' => [
+                    'module_id' => '97'
                 ]
             ],
             'sample-9357' => [

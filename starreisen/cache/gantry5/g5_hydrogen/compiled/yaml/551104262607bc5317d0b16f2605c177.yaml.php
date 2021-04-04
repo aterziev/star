@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/administrator/components/com_gantry5/blueprints/menu/menu.yaml',
-    'modified' => 1590927730,
+    'modified' => 1616585340,
     'data' => [
         'name' => 'Menu',
         'description' => 'Gantry menu.',

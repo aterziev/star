@@ -2,13 +2,13 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/templates/g5_hydrogen/gantry/theme.yaml',
-    'modified' => 1590928134,
+    'modified' => 1616585335,
     'data' => [
         'details' => [
             'name' => 'Hydrogen',
-            'version' => '5.4.34',
+            'version' => '5.4.37',
             'icon' => 'paper-plane',
-            'date' => 'April 30, 2020',
+            'date' => 'January 25, 2021',
             'author' => [
                 'name' => 'RocketTheme, LLC',
                 'email' => 'support@rockettheme.com',

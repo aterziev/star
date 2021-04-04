@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen/media/gantry5/engines/nucleus/particles/analytics.yaml',
-    'modified' => 1590927729,
+    'modified' => 1616585339,
     'data' => [
         'name' => 'Google Analytics',
         'description' => 'Configure Google Analytics.',
@@ -26,18 +26,6 @@ return [
                     'type' => 'input.checkbox',
                     'description' => 'Send only Anonymous IP Addresses (mandatory in Europe)',
                     'label' => 'Anonym Statistics',
-                    'default' => false
-                ],
-                'ua.ssl' => [
-                    'type' => 'input.checkbox',
-                    'description' => 'Send all data using SSL, even from insecure (HTTP) pages.',
-                    'label' => 'Force SSL use',
-                    'default' => false
-                ],
-                'ua.debug' => [
-                    'type' => 'input.checkbox',
-                    'description' => 'Enable the debug version of analytics.js - DON\'T USE ON PRODUCTION!',
-                    'label' => 'Use Debug Mode',
                     'default' => false
                 ]
             ]

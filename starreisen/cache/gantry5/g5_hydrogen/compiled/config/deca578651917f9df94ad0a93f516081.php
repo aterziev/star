@@ -1,28 +1,28 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1590969781,
-    'checksum' => '13b13d5c5e8d18b842ae17251199ab7d',
+    'timestamp' => 1616608034,
+    'checksum' => 'd3a98a4c808de852ffd28e5b8be930c0',
     'files' => [
         'templates/g5_hydrogen/custom/config/13' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/13/index.yaml',
-                'modified' => 1590968712
+                'modified' => 1616607868
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/13/layout.yaml',
-                'modified' => 1590968712
+                'modified' => 1616607868
             ],
             'styles' => [
                 'file' => 'templates/g5_hydrogen/custom/config/13/styles.yaml',
-                'modified' => 1590969744
+                'modified' => 1590969816
             ]
         ]
     ],
     'data' => [
         'index' => [
             'name' => '13',
-            'timestamp' => 1590968712,
+            'timestamp' => 1616607868,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/home.png',
@@ -49,17 +49,17 @@ return [
                 'menu' => [
                     'menu-6519' => 'Menu'
                 ],
-                'sample' => [
-                    'sample-1' => 'Gantry 5',
-                    'sample-9357' => 'Sample Content',
-                    'sample-3' => 'Key Features'
-                ],
                 'module' => [
-                    'position-module-1444' => 'Module Instance',
-                    'position-module-2836' => 'Module Instance'
+                    'position-module-7108' => 'Module Instance',
+                    'position-module-6880' => 'Module Instance',
+                    'position-module-7360' => 'Module Instance'
                 ],
                 'messages' => [
                     'system-messages-7171' => 'System Messages'
+                ],
+                'sample' => [
+                    'sample-9357' => 'Sample Content',
+                    'sample-3' => 'Key Features'
                 ],
                 'position' => [
                     'position-footer' => 'Footer'
@@ -96,18 +96,18 @@ return [
                     ]
                 ],
                 '/navigation/' => [
-                    
-                ],
-                '/showcase/' => [
                     0 => [
-                        0 => 'sample-1'
+                        0 => 'position-module-7108'
                     ],
                     1 => [
-                        0 => 'position-module-1444'
+                        0 => 'position-module-6880'
                     ],
                     2 => [
-                        0 => 'position-module-2836'
+                        0 => 'position-module-7360'
                     ]
+                ],
+                '/showcase/' => [
+                    
                 ],
                 '/feature/' => [
                     
@@ -200,32 +200,24 @@ return [
                         'fixed' => '1'
                     ]
                 ],
-                'sample-1' => [
-                    'title' => 'Gantry 5',
-                    'attributes' => [
-                        'enabled' => 0,
-                        'image' => 'gantry-assets://images/_star_images/facebook_banner.png',
-                        'headline' => '',
-                        'description' => '<p>Starreisen</p>',
-                        'link' => '#',
-                        'linktext' => '',
-                        'samples' => [
-                            
-                        ]
-                    ]
-                ],
-                'position-module-1444' => [
+                'position-module-7108' => [
                     'title' => 'Module Instance',
                     'attributes' => [
                         'module_id' => '91',
                         'key' => 'module-instance'
                     ]
                 ],
-                'position-module-2836' => [
+                'position-module-6880' => [
                     'title' => 'Module Instance',
                     'attributes' => [
                         'module_id' => '93',
                         'key' => 'module-instance'
+                    ]
+                ],
+                'position-module-7360' => [
+                    'title' => 'Module Instance',
+                    'attributes' => [
+                        'module_id' => '97'
                     ]
                 ],
                 'sample-9357' => [
@@ -341,7 +333,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
             ],
             'showcase' => [
                 'background' => '#efefef',
-                'text-color' => '#ffffff'
+                'text-color' => '#2b2b2b'
             ],
             'offcanvas' => [
                 'background' => '#722829'

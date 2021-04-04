@@ -1,33 +1,19 @@
 version: 2
 preset:
-  image: 'gantry-admin://images/layouts/default.png'
-  name: default
-  timestamp: 1590928134
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1616585335
 layout:
-  /header/:
+  /header/: {  }
+  /navigation/: {  }
+  /showcase/:
     -
-      - position-header
-  /navigation/:
-    -
-      - 'logo-3841 20'
-      - 'menu-4633 80'
-  /main/:
-    -
-      - position-breadcrumbs
-    -
-      - system-messages-5763
-    -
-      - system-content-4780
-  /footer/:
-    -
-      - position-footer
-    -
-      - 'copyright-5565 40'
-      - 'spacer-3578 30'
-      - 'branding-4442 30'
-  offcanvas:
-    -
-      - mobile-menu-5694
+      - logo-1124
+  /feature/: {  }
+  /main/: {  }
+  /subfeature/: {  }
+  /footer/: {  }
+  offcanvas: {  }
 structure:
   header:
     attributes:
@@ -36,20 +22,27 @@ structure:
     type: section
     attributes:
       boxed: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
   main:
     attributes:
+      boxed: ''
+  subfeature:
+    type: section
+    attributes:
+      class: flush
       boxed: ''
   footer:
     attributes:
       boxed: ''
 content:
-  position-header:
+  logo-1124:
+    title: 'Logo / Image'
     attributes:
-      enabled: 0
-      key: header
-  position-breadcrumbs:
-    attributes:
-      key: breadcrumbs
-  position-footer:
-    attributes:
-      key: footer
+      image: 'gantry-assets://images/gantry5-logo.png'

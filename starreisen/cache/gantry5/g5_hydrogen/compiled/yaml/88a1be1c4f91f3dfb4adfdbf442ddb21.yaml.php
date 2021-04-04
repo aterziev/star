@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/templates/g5_hydrogen/blueprints/styles/accent.yaml',
-    'modified' => 1590928133,
+    'modified' => 1616585335,
     'data' => [
         'name' => 'Accent Colors',
         'description' => 'Accent colors for the Hydrogen theme',

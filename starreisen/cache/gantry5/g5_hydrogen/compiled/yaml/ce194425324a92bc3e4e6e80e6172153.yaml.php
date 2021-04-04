@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/templates/g5_hydrogen/gantry/presets.yaml',
-    'modified' => 1590928134,
+    'modified' => 1616585335,
     'data' => [
         'preset1' => [
             'image' => 'gantry-admin://images/preset1.png',

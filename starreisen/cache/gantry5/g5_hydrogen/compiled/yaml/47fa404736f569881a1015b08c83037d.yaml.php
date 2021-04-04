@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/media/gantry5/engines/nucleus/particles/totop.yaml',
-    'modified' => 1590927729,
+    'modified' => 1616585339,
     'data' => [
         'name' => 'To Top',
         'description' => 'Scroll back to top.',
@@ -37,6 +37,12 @@ return [
                     'label' => 'Text',
                     'description' => 'The text to be displayed for the link. HTML is allowed.',
                     'placeholder' => 'To Top'
+                ],
+                'title' => [
+                    'type' => 'input.text',
+                    'label' => 'Title',
+                    'description' => 'The title to be applied on the link. If no title is set here but a text is defined above, the text is used automatically for the <code>title</code>.',
+                    'placeholder' => 'jump to top'
                 ]
             ]
         ]

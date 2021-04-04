@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/templates/g5_hydrogen/custom/config/12/index.yaml',
-    'modified' => 1590967799,
+    'modified' => 1616607569,
     'data' => [
         'name' => 12,
-        'timestamp' => 1590967799,
+        'timestamp' => 1616607569,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -13,9 +13,7 @@ return [
             'timestamp' => 1590928134
         ],
         'positions' => [
-            'header' => 'Header',
-            'breadcrumbs' => 'Breadcrumbs',
-            'footer' => 'Footer'
+            
         ],
         'sections' => [
             'header' => 'Header',
@@ -25,35 +23,7 @@ return [
             'offcanvas' => 'Offcanvas'
         ],
         'particles' => [
-            'logo' => [
-                'logo-3841' => 'Logo'
-            ],
-            'position' => [
-                'position-header' => 'Header',
-                'position-breadcrumbs' => 'Breadcrumbs',
-                'position-footer' => 'Footer'
-            ],
-            'menu' => [
-                'menu-4633' => 'Menu'
-            ],
-            'messages' => [
-                'system-messages-5763' => 'System Messages'
-            ],
-            'content' => [
-                'system-content-4780' => 'Page Content'
-            ],
-            'copyright' => [
-                'copyright-5565' => 'Copyright'
-            ],
-            'spacer' => [
-                'spacer-3578' => 'Spacer'
-            ],
-            'branding' => [
-                'branding-4442' => 'Branding'
-            ],
-            'mobile-menu' => [
-                'mobile-menu-5694' => 'Mobile-menu'
-            ]
+            
         ],
         'inherit' => [
             'default' => [
@@ -61,18 +31,7 @@ return [
                 'navigation' => 'navigation',
                 'main' => 'main',
                 'footer' => 'footer',
-                'offcanvas' => 'offcanvas',
-                'logo-3841' => 'logo-3841',
-                'position-header' => 'position-header',
-                'menu-4633' => 'menu-4633',
-                'position-breadcrumbs' => 'position-breadcrumbs',
-                'system-messages-5763' => 'system-messages-5763',
-                'system-content-4780' => 'system-content-4780',
-                'position-footer' => 'position-footer',
-                'copyright-5565' => 'copyright-5565',
-                'spacer-3578' => 'spacer-3578',
-                'branding-4442' => 'branding-4442',
-                'mobile-menu-5694' => 'mobile-menu-5694'
+                'offcanvas' => 'offcanvas'
             ]
         ]
     ]

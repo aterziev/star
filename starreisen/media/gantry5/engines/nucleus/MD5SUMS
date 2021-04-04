@@ -1,9 +1,9 @@
 particles/logo.yaml	43c64fafad15a1c48ed23ce20b91c465
-particles/totop.yaml	c0207346fe89effdad46d3306a308e1a
+particles/totop.yaml	27fd89ee52b70af3337800f16447593d
 particles/custom.html.twig	9c932ef8b906302b739c67bd5949b7f1
-particles/totop.html.twig	11a8a23eadbf449ec87e062f90d6777f
+particles/totop.html.twig	a7002ea16df648bf5780624d6ba19aa7
 particles/lightcase.yaml	65a8f22e99b1ba639c1dcc091ccfe5ea
-particles/analytics.yaml	572d7012863cec4ffac1565b1d05e28a
+particles/analytics.yaml	4776910a422e7fafa4cc3bb6e3523bd7
 particles/assets.yaml	d2fee0f98b601ba886f3ba6876ab78d6
 particles/messages.yaml	9a57ab2745b1c23d47a8d346f49fe0f6
 particles/spacer.yaml	72f62ba43d554bf9b8590362d9c4543f
@@ -26,7 +26,7 @@ particles/copyright.html.twig	9cdfc98efcfa0bd5f37c012bad8e2345
 particles/position.html.twig	b278930b00e1e7cab54feab033bf3442
 particles/contentarray.yaml	b5ef4f7dfee23a7660fc248652823513
 particles/social.html.twig	f723e0cf478bbff46998ba521cc8765f
-particles/analytics.html.twig	5329898587326a451694ed09a37b236c
+particles/analytics.html.twig	4a5e757ad4706c5559874a0597122feb
 particles/logo.html.twig	1294767187ce1dc2bb2f97d458fda77f
 particles/position.yaml	a25ef0d2dfff156d3f9b5e361598242e
 particles/copyright.yaml	2f80b0c680382d94eabc8c83478ff979
@@ -56,6 +56,7 @@ templates/partials/particle.html.twig	07935cff8475093e4c5e315985b39b99
 layouts/_joomla_-_protostar.yaml	9d7f02c310a41c6ad48d8f39e366e9bc
 layouts/_joomla_-_beez3.yaml	7d77be36f4765da38b8f709a8633d3be
 layouts/_joomla_-_gantry4.yaml	f01ef72766e54eef2966b2a4727a81d3
+package-lock.json	b49c871452883df491ad4430c2952877
 MD5SUMS	d41d8cd98f00b204e9800998ecf8427e
 blueprints/page/assets.yaml	7d2b1d34e18abef0302007d02e15fc0d
 blueprints/page/body.yaml	7f6fc9e8368dbfcdb7ca1846d3394839

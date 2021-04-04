@@ -1,4 +1,3 @@
-custom/.gitkeep	d41d8cd98f00b204e9800998ecf8427e
 install.php	79f67005666730b61aaa6b3dd2455ff1
 includes/gantry.php	9d8fa5a4d2d331d2645e9f955f942dc5
 includes/theme.php	4b61db24809ab4d7567b496799b720f4
@@ -32,7 +31,7 @@ fonts/roboto_medium_macroman/Roboto-Medium-webfont.ttf	1d2af757de4340d6b644360e5
 fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff	b9d01ac1742192a7c9d30f3fe346a9f4
 fonts/roboto_medium_macroman/Roboto-Medium-webfont.woff2	77c6e1606d99099a72efb51e2f5f679f
 fonts/roboto_medium_macroman/Roboto-Medium-webfont.svg	88e897b6e48f9b57cbed1ad9256f18ee
-templateDetails.xml	270a92924c79976caf4f1b705643e27d
+templateDetails.xml	75f94bedf335d25e7a871caafa9543cf
 layouts/default.yaml	da9dc1fe1d9778d7baa533a62ac69405
 layouts/_offline.yaml	6949fb36502ba067bd8319aecbf1ad46
 layouts/2_column_-_left.yaml	82ef562e5d632a9d5b3240f39654ea98
@@ -46,7 +45,7 @@ layouts/3_column.yaml	33fba17575d31f5df1ce4daa824a5b2a
 layouts/_body_only.yaml	86b14215cebbd537b3af0d15dbb71840
 layouts/3_column_-_left.yaml	abb7507d700adde8994d795e6baba768
 MD5SUMS	d41d8cd98f00b204e9800998ecf8427e
-gantry/theme.yaml	030714eb3f1a99562e2ff1e186791bc5
+gantry/theme.yaml	d81fb331b39c1c8710ace3c2e344ea37
 gantry/presets.yaml	7f3dfc6dcb9acb88e4c8f66afed12c97
 images/ipad.png	d5a7118045cc491070f6aac905dffc1f
 images/iphone.png	3e0764062333d05540e4cae7045fe07d

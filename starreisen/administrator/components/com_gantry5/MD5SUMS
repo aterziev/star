@@ -84,7 +84,7 @@ templates/partials/base.html.twig	59a1af6b41c87ea835c2fc9b50e7f6f8
 templates/partials/page.html.twig	75b2371c5b46e269899d17a40a9b78ea
 templates/partials/layout.html.twig	b4e3430affcd9e5d942fca142e7a0377
 templates/partials/updates.html.twig	e199020e3d3aa73c4dccd17b1e9ad914
-templates/partials/navigation.html.twig	7307ea338a64aa50698e14cc92be06ee
+templates/partials/navigation.html.twig	4645d0608c4f9528dc4a07d45f335239
 templates/partials/js-translations.html.twig	1d032909554f4faab390acdef7e83670
 templates/partials/php_unsupported.html.twig	fc9f221c528c36f9357f416eba41733a
 templates/partials/header.html.twig	8778daa212a364f8134dee8e32dcd64e
@@ -163,6 +163,7 @@ templates/forms/field.html.twig	80e14c8a83fa699b97fa49159654858e
 templates/forms/form.html.twig	0a8c133af6200a61d4fff9e2f8fe4768
 templates/forms/fields.html.twig	2d337ada2194d8a90105917f7b6c9549
 templates/error.html.twig	0592663bbec026aa1009720041a6e834
+package-lock.json	0832670cf5ece4473f28724039c26d16
 MD5SUMS	d41d8cd98f00b204e9800998ecf8427e
 gantry5.php	6cba1e8cdb1acbafa4dd9bc8bcb99280
 images/layouts/error.png	2660a6663731f9b709e6ea7c06fe8a9e
@@ -185,8 +186,8 @@ blueprints/gantry/theme/admin.yaml	b0f2b75b7146342191a950e684cbb8f5
 blueprints/gantry/theme/configuration.yaml	bdca7a752f17b86e81a7d3bd65b81d21
 blueprints/menu/menu.yaml	97bfc9e993a9459303397d6be3a99cda
 blueprints/menu/menuitem.yaml	547d75466428e12a6e2c55c015443d09
-js/main.js	5ef9158590dc336a93e46d2836b6d8d3
-js/google-fonts.json	a7119c14db137a6ad79b5504679c0b9f
+js/main.js	24bcc62e7a52e29055298f5e8c37080c
+js/google-fonts.json	9a0bac44e508abd837a36e3ffdccabb6
 js/tooltips.js	2462fb34ec347c0391c56569c1c5b419
 yarn.lock	49303671836855391fac13e1f858f569
 scss/joomla-admin.scss	d268416e36ffbea612dcb5d9b792e1d2

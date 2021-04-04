@@ -2,51 +2,40 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/templates/g5_hydrogen/custom/config/default/layout.yaml',
-    'modified' => 1590928134,
+    'modified' => 1616607569,
     'data' => [
         'version' => 2,
         'preset' => [
-            'image' => 'gantry-admin://images/layouts/default.png',
-            'name' => 'default',
-            'timestamp' => 1590928134
+            'image' => 'gantry-admin://images/layouts/home.png',
+            'name' => 'home',
+            'timestamp' => 1616585335
         ],
         'layout' => [
             '/header/' => [
-                0 => [
-                    0 => 'logo-3841 30',
-                    1 => 'position-header 70'
-                ]
+                
             ],
             '/navigation/' => [
+                
+            ],
+            '/showcase/' => [
                 0 => [
-                    0 => 'menu-4633'
+                    0 => 'logo-1124'
                 ]
+            ],
+            '/feature/' => [
+                
             ],
             '/main/' => [
-                0 => [
-                    0 => 'position-breadcrumbs'
-                ],
-                1 => [
-                    0 => 'system-messages-5763'
-                ],
-                2 => [
-                    0 => 'system-content-4780'
-                ]
+                
+            ],
+            '/subfeature/' => [
+                
             ],
             '/footer/' => [
-                0 => [
-                    0 => 'position-footer'
-                ],
-                1 => [
-                    0 => 'copyright-5565 40',
-                    1 => 'spacer-3578 30',
-                    2 => 'branding-4442 30'
-                ]
+                
             ],
             'offcanvas' => [
-                0 => [
-                    0 => 'mobile-menu-5694'
-                ]
+                
             ]
         ],
         'structure' => [
@@ -61,8 +50,27 @@ return [
                     'boxed' => ''
                 ]
             ],
+            'showcase' => [
+                'type' => 'section',
+                'attributes' => [
+                    'boxed' => ''
+                ]
+            ],
+            'feature' => [
+                'type' => 'section',
+                'attributes' => [
+                    'boxed' => ''
+                ]
+            ],
             'main' => [
                 'attributes' => [
+                    'boxed' => ''
+                ]
+            ],
+            'subfeature' => [
+                'type' => 'section',
+                'attributes' => [
+                    'class' => 'flush',
                     'boxed' => ''
                 ]
             ],
@@ -73,19 +81,10 @@ return [
             ]
         ],
         'content' => [
-            'position-header' => [
+            'logo-1124' => [
+                'title' => 'Logo / Image',
                 'attributes' => [
-                    'key' => 'header'
-                ]
-            ],
-            'position-breadcrumbs' => [
-                'attributes' => [
-                    'key' => 'breadcrumbs'
-                ]
-            ],
-            'position-footer' => [
-                'attributes' => [
-                    'key' => 'footer'
+                    'image' => 'gantry-assets://images/gantry5-logo.png'
                 ]
             ]
         ]

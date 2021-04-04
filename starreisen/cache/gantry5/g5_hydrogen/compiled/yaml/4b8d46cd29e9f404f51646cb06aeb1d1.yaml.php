@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen/media/gantry5/engines/nucleus/particles/branding.yaml',
-    'modified' => 1590927729,
+    'modified' => 1616585339,
     'data' => [
         'name' => 'Branding',
         'description' => 'Displays powered by link to Gantry Framework',

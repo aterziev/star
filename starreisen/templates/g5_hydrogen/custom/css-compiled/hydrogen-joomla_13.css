@@ -858,7 +858,6 @@ a.text-info:hover, a.text-info:focus {
   }
 }
 @media only all and (max-width: 59.99rem) {
-  /* line 28, media/gantry5/engines/nucleus/scss/nucleus/mixins/_breakpoints.scss */
   /* line 413, media/gantry5/engines/nucleus/scss/joomla/theme/breakpoints/_bootstrap.scss */
   .navbar-fixed-top, .navbar-fixed-bottom {
     position: static;
