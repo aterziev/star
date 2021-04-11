@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen/templates/g5_hydrogen/custom/config/12/layout.yaml',
-    'modified' => 1616587321,
+    'modified' => 1617562891,
     'data' => [
         'version' => 2,
         'preset' => [

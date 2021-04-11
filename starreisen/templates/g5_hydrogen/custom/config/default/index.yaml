@@ -1,5 +1,5 @@
 name: default
-timestamp: 1616607569
+timestamp: 1617562891
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/home.png'
@@ -15,7 +15,5 @@ sections:
   main: Main
   footer: Footer
   offcanvas: Offcanvas
-particles:
-  logo:
-    logo-1124: 'Logo / Image'
+particles: {  }
 inherit: {  }

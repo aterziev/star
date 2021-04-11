@@ -39,6 +39,7 @@
     <positions>
         <position>debug</position>
         <position>footer</position>
+        <position>header-a</position>
     </positions>
 
     <config>

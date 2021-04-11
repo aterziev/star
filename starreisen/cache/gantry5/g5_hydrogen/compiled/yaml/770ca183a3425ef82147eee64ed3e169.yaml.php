@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen/templates/g5_hydrogen/custom/config/13/index.yaml',
-    'modified' => 1616607868,
+    'modified' => 1617562938,
     'data' => [
         'name' => '13',
-        'timestamp' => 1616607868,
+        'timestamp' => 1617562938,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/home.png',
@@ -37,12 +37,13 @@ return [
                 'position-module-6880' => 'Module Instance',
                 'position-module-7360' => 'Module Instance'
             ],
-            'messages' => [
-                'system-messages-7171' => 'System Messages'
-            ],
             'sample' => [
+                'sample-4220' => 'Sample Content',
                 'sample-9357' => 'Sample Content',
                 'sample-3' => 'Key Features'
+            ],
+            'messages' => [
+                'system-messages-7171' => 'System Messages'
             ],
             'position' => [
                 'position-footer' => 'Footer'

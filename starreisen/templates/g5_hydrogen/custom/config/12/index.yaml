@@ -1,18 +1,23 @@
 name: 12
-timestamp: 1616607569
+timestamp: 1617562891
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
   timestamp: 1590928134
-positions: {  }
+positions:
+  header-a: 'Module Position'
 sections:
   header: Header
   navigation: Navigation
   main: Main
   footer: Footer
   offcanvas: Offcanvas
-particles: {  }
+particles:
+  position:
+    position-position-5503: 'Module Position'
+  module:
+    position-module-5611: 'Module Instance'
 inherit:
   default:
     header: header

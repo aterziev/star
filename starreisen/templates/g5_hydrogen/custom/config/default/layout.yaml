@@ -6,9 +6,7 @@ preset:
 layout:
   /header/: {  }
   /navigation/: {  }
-  /showcase/:
-    -
-      - logo-1124
+  /showcase/: {  }
   /feature/: {  }
   /main/: {  }
   /subfeature/: {  }
@@ -41,8 +39,3 @@ structure:
   footer:
     attributes:
       boxed: ''
-content:
-  logo-1124:
-    title: 'Logo / Image'
-    attributes:
-      image: 'gantry-assets://images/gantry5-logo.png'

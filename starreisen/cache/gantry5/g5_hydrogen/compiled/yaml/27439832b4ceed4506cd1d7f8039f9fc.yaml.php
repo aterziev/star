@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen/templates/g5_hydrogen/blueprints/styles/feature.yaml',
-    'modified' => 1616585335,
+    'modified' => 1617561691,
     'data' => [
         'name' => 'Feature Colors',
         'description' => 'Feature colors for the Hydrogen theme',

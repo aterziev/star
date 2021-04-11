@@ -2,13 +2,11 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/templates/g5_hydrogen/custom/config/menu/helium-theme.yaml',
-    'modified' => 1590965820,
+    'modified' => 1617561954,
     'data' => [
         'ordering' => [
             'helium' => '',
-            'ticket-buchen' => [
-                
-            ],
+            'ticket-buchen' => '',
             'aktuelles' => '',
             'kontakt' => ''
         ],

@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1616608034,
-    'checksum' => 'aa1fce153d87173847fe40f1260ee2af',
+    'timestamp' => 1618174870,
+    'checksum' => '1fc3e6c0cd64515b18d4f66de6997393',
     'files' => [
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1616607569
+                'modified' => 1617562891
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/layout.yaml',
-                'modified' => 1616607569
+                'modified' => 1617562891
             ],
             'particles/branding' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/branding.yaml',
@@ -85,7 +85,7 @@ return [
         'templates/g5_hydrogen/config/default' => [
             'particles/logo' => [
                 'file' => 'templates/g5_hydrogen/config/default/particles/logo.yaml',
-                'modified' => 1616585335
+                'modified' => 1617561691
             ]
         ]
     ],
@@ -385,7 +385,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1616607569,
+            'timestamp' => 1617562891,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/home.png',
@@ -406,9 +406,7 @@ return [
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
-                'logo' => [
-                    'logo-1124' => 'Logo / Image'
-                ]
+                
             ],
             'inherit' => [
                 
@@ -429,9 +427,7 @@ return [
                     
                 ],
                 '/showcase/' => [
-                    0 => [
-                        0 => 'logo-1124'
-                    ]
+                    
                 ],
                 '/feature/' => [
                     
@@ -488,14 +484,6 @@ return [
                 'footer' => [
                     'attributes' => [
                         'boxed' => ''
-                    ]
-                ]
-            ],
-            'content' => [
-                'logo-1124' => [
-                    'title' => 'Logo / Image',
-                    'attributes' => [
-                        'image' => 'gantry-assets://images/gantry5-logo.png'
                     ]
                 ]
             ]

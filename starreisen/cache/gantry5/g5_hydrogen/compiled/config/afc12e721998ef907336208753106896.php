@@ -1,91 +1,91 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1616605933,
-    'checksum' => 'b42a30b20b1d55da19115a5b83c37561',
+    'timestamp' => 1618174903,
+    'checksum' => '7ac1781a69e3e18efb5068c2067d918e',
     'files' => [
         'templates/g5_hydrogen/custom/config/12' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/12/index.yaml',
-                'modified' => 1616587321
+                'modified' => 1617562891
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/12/layout.yaml',
-                'modified' => 1616587321
+                'modified' => 1617562891
             ]
         ],
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1616587321
+                'modified' => 1617562891
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/layout.yaml',
-                'modified' => 1616587321
+                'modified' => 1617562891
             ],
             'particles/branding' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/branding.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/content' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/content.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606252
             ],
             'particles/contentarray' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/contentarray.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/copyright' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/copyright.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/custom' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/custom.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/date' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/date.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/logo' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/logo.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/menu' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/menu.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/messages' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/messages.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606252
             ],
             'particles/mobile-menu' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/mobile-menu.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/module' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/module.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606252
             ],
             'particles/position' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/position.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/sample' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/sample.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/social' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/social.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'particles/spacer' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/spacer.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606252
             ],
             'particles/totop' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/totop.yaml',
-                'modified' => 1616587291
+                'modified' => 1616606251
             ],
             'styles' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/styles.yaml',
@@ -95,7 +95,7 @@ return [
         'templates/g5_hydrogen/config/default' => [
             'particles/logo' => [
                 'file' => 'templates/g5_hydrogen/config/default/particles/logo.yaml',
-                'modified' => 1616585335
+                'modified' => 1617561691
             ]
         ]
     ],
@@ -395,7 +395,7 @@ return [
         ],
         'index' => [
             'name' => 12,
-            'timestamp' => 1616587321,
+            'timestamp' => 1617562891,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -403,9 +403,7 @@ return [
                 'timestamp' => 1590928134
             ],
             'positions' => [
-                'header' => 'Header',
-                'breadcrumbs' => 'Breadcrumbs',
-                'footer' => 'Footer'
+                'header-a' => 'Module Position'
             ],
             'sections' => [
                 'header' => 'Header',
@@ -416,33 +414,10 @@ return [
             ],
             'particles' => [
                 'position' => [
-                    'position-header' => 'Header',
-                    'position-breadcrumbs' => 'Breadcrumbs',
-                    'position-footer' => 'Footer'
+                    'position-position-5503' => 'Module Position'
                 ],
-                'logo' => [
-                    'logo-3841' => 'Logo'
-                ],
-                'menu' => [
-                    'menu-4633' => 'Menu'
-                ],
-                'messages' => [
-                    'system-messages-5763' => 'System Messages'
-                ],
-                'content' => [
-                    'system-content-4780' => 'Page Content'
-                ],
-                'copyright' => [
-                    'copyright-5565' => 'Copyright'
-                ],
-                'spacer' => [
-                    'spacer-3578' => 'Spacer'
-                ],
-                'branding' => [
-                    'branding-4442' => 'Branding'
-                ],
-                'mobile-menu' => [
-                    'mobile-menu-5694' => 'Mobile-menu'
+                'module' => [
+                    'position-module-5611' => 'Module Instance'
                 ]
             ],
             'inherit' => [
@@ -451,18 +426,7 @@ return [
                     'navigation' => 'navigation',
                     'main' => 'main',
                     'footer' => 'footer',
-                    'offcanvas' => 'offcanvas',
-                    'position-header' => 'position-header',
-                    'logo-3841' => 'logo-3841',
-                    'menu-4633' => 'menu-4633',
-                    'position-breadcrumbs' => 'position-breadcrumbs',
-                    'system-messages-5763' => 'system-messages-5763',
-                    'system-content-4780' => 'system-content-4780',
-                    'position-footer' => 'position-footer',
-                    'copyright-5565' => 'copyright-5565',
-                    'spacer-3578' => 'spacer-3578',
-                    'branding-4442' => 'branding-4442',
-                    'mobile-menu-5694' => 'mobile-menu-5694'
+                    'offcanvas' => 'offcanvas'
                 ]
             ]
         ],
@@ -540,36 +504,6 @@ return [
                             1 => 'block',
                             2 => 'children'
                         ]
-                    ]
-                ]
-            ],
-            'content' => [
-                'position-header' => [
-                    'attributes' => [
-                        'enabled' => 0,
-                        'key' => 'header'
-                    ]
-                ],
-                'position-breadcrumbs' => [
-                    'attributes' => [
-                        'enabled' => 0,
-                        'key' => 'breadcrumbs'
-                    ]
-                ],
-                'system-messages-5763' => [
-                    'attributes' => [
-                        'enabled' => 0
-                    ]
-                ],
-                'system-content-4780' => [
-                    'attributes' => [
-                        'enabled' => 0
-                    ]
-                ],
-                'position-footer' => [
-                    'attributes' => [
-                        'enabled' => 0,
-                        'key' => 'footer'
                     ]
                 ]
             ]

@@ -1,11 +1,11 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom_13.css',
-    'timestamp' => 1616587267,
+    'timestamp' => 1617561975,
     'md5' => '4bf6be0fb66e1b61f5d1a81a2bb4b6b9',
     'variables' => [
-        'accent-color-1' => '#bf383a',
-        'accent-color-2' => '#757575',
+        'accent-color-1' => '#3180c2',
+        'accent-color-2' => '#ef6c00',
         'base-background' => '#ffffff',
         'base-text-color' => '#666666',
         'base-body-font' => '\'roboto, sans-serif\'',
@@ -19,25 +19,25 @@ return [
         'feature-text-color' => '#666666',
         'footer-background' => '#ffffff',
         'footer-text-color' => '#666666',
-        'header-background' => '#2b2b2b',
+        'header-background' => '#1867a9',
         'header-text-color' => '#ffffff',
         'main-background' => '#ffffff',
         'main-text-color' => '#666666',
         'menu-col-width' => '180px',
         'menu-animation' => '\'g-fade\'',
-        'navigation-background' => '#bf383a',
+        'navigation-background' => '#3180c2',
         'navigation-text-color' => '#ffffff',
         'navigation-overlay' => 'rgba(0, 0, 0, 0.4)',
-        'offcanvas-background' => '#722829',
+        'offcanvas-background' => '#142d53',
         'offcanvas-text-color' => '#ffffff',
         'offcanvas-width' => '17rem',
         'offcanvas-toggle-color' => '#ffffff',
         'offcanvas-toggle-visibility' => '\'1\'',
-        'showcase-background' => '#efefef',
-        'showcase-text-color' => '#2b2b2b',
+        'showcase-background' => '#142d53',
+        'showcase-text-color' => '#ffffff',
         'subfeature-background' => '#f0f0f0',
         'subfeature-text-color' => '#666666',
-        'preset' => '\'preset4\''
+        'preset' => '\'preset2\''
     ],
     'imports' => [
         'gantry-theme://scss/custom.scss' => 1590963062

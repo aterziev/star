@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen/media/gantry5/engines/nucleus/particles/logo.yaml',
-    'modified' => 1616585339,
+    'modified' => 1617561827,
     'data' => [
         'name' => 'Logo / Image',
         'description' => 'Display a logo or an image.',

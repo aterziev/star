@@ -1,31 +1,31 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1616607871,
-    'checksum' => '4889b8990e8af3818d3a631d0d04b730',
+    'timestamp' => 1617562943,
+    'checksum' => '3e1445360cc11afc07d1ae2d84bbb2f0',
     'files' => [
         'templates/g5_hydrogen/custom/config/13' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/13/index.yaml',
-                'modified' => 1616607868
+                'modified' => 1617562938
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/13/layout.yaml',
-                'modified' => 1616607868
+                'modified' => 1617562938
             ],
             'styles' => [
                 'file' => 'templates/g5_hydrogen/custom/config/13/styles.yaml',
-                'modified' => 1590969816
+                'modified' => 1617561975
             ]
         ],
         'templates/g5_hydrogen/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/index.yaml',
-                'modified' => 1616607569
+                'modified' => 1617562891
             ],
             'layout' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/layout.yaml',
-                'modified' => 1616607569
+                'modified' => 1617562891
             ],
             'particles/branding' => [
                 'file' => 'templates/g5_hydrogen/custom/config/default/particles/branding.yaml',
@@ -99,7 +99,7 @@ return [
         'templates/g5_hydrogen/config/default' => [
             'particles/logo' => [
                 'file' => 'templates/g5_hydrogen/config/default/particles/logo.yaml',
-                'modified' => 1616585335
+                'modified' => 1617561691
             ]
         ]
     ],
@@ -337,8 +337,8 @@ return [
         ],
         'styles' => [
             'accent' => [
-                'color-1' => '#bf383a',
-                'color-2' => '#757575'
+                'color-1' => '#3180c2',
+                'color-2' => '#ef6c00'
             ],
             'base' => [
                 'background' => '#ffffff',
@@ -362,7 +362,7 @@ return [
                 'text-color' => '#666666'
             ],
             'header' => [
-                'background' => '#2b2b2b',
+                'background' => '#1867a9',
                 'text-color' => '#ffffff'
             ],
             'main' => [
@@ -375,31 +375,31 @@ return [
                 'hide-on-mobile' => '0'
             ],
             'navigation' => [
-                'background' => '#bf383a',
+                'background' => '#3180c2',
                 'text-color' => '#ffffff',
                 'overlay' => 'rgba(0, 0, 0, 0.4)'
             ],
             'offcanvas' => [
-                'background' => '#722829',
+                'background' => '#142d53',
                 'text-color' => '#ffffff',
                 'width' => '17rem',
                 'toggle-color' => '#ffffff',
                 'toggle-visibility' => '1'
             ],
             'showcase' => [
-                'background' => '#efefef',
+                'background' => '#142d53',
                 'image' => '',
-                'text-color' => '#2b2b2b'
+                'text-color' => '#ffffff'
             ],
             'subfeature' => [
                 'background' => '#f0f0f0',
                 'text-color' => '#666666'
             ],
-            'preset' => 'preset4'
+            'preset' => 'preset2'
         ],
         'index' => [
             'name' => '13',
-            'timestamp' => 1616607868,
+            'timestamp' => 1617562938,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/home.png',
@@ -431,12 +431,13 @@ return [
                     'position-module-6880' => 'Module Instance',
                     'position-module-7360' => 'Module Instance'
                 ],
-                'messages' => [
-                    'system-messages-7171' => 'System Messages'
-                ],
                 'sample' => [
+                    'sample-4220' => 'Sample Content',
                     'sample-9357' => 'Sample Content',
                     'sample-3' => 'Key Features'
+                ],
+                'messages' => [
+                    'system-messages-7171' => 'System Messages'
                 ],
                 'position' => [
                     'position-footer' => 'Footer'
@@ -487,7 +488,9 @@ return [
                     
                 ],
                 '/feature/' => [
-                    
+                    0 => [
+                        0 => 'sample-4220'
+                    ]
                 ],
                 '/main/' => [
                     0 => [
@@ -594,7 +597,21 @@ return [
                 'position-module-7360' => [
                     'title' => 'Module Instance',
                     'attributes' => [
-                        'module_id' => '97'
+                        'module_id' => '97',
+                        'key' => 'module-instance'
+                    ]
+                ],
+                'sample-4220' => [
+                    'title' => 'Sample Content',
+                    'attributes' => [
+                        'image' => '',
+                        'headline' => 'headline 1',
+                        'description' => 'context 1',
+                        'link' => '',
+                        'linktext' => '',
+                        'samples' => [
+                            
+                        ]
                     ]
                 ],
                 'sample-9357' => [
