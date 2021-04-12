@@ -1,0 +1,10 @@
+preset: preset4
+base:
+  background: '#ffffff'
+navigation:
+  background: '#5e2931'
+header:
+  background: '#2a363b'
+  background-image: 'gantry-media://header/img01.jpg'
+intro:
+  background: '#f4f5f7'

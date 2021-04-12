@@ -1,0 +1,4 @@
+enabled: '1'
+content: 'Powered by <a href="#" title="Starreisen" class="g-powered-by">Starreisen<span class="hidden-tablet"> 2007</span></a>'
+css:
+  class: g-branding
