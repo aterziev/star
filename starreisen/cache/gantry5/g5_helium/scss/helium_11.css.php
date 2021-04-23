@@ -1,12 +1,12 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium_11.css',
-    'timestamp' => 1619176963,
-    'md5' => 'ecccb5060bdb85f9075a3ed5e195a6d0',
+    'timestamp' => 1619177273,
+    'md5' => '59c3693288b78ffcffd27141d78c69f4',
     'variables' => [
         'above-background' => '#f4f5f7',
         'above-text-color' => '#2a363b',
-        'accent-color-1' => '#f4f5f7',
+        'accent-color-1' => '#4a76a8',
         'accent-color-2' => '#8db6c7',
         'base-background' => '#ffffff',
         'base-text-color' => '#94cbe3',
