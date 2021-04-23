@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen/templates/g5_helium/custom/config/default/layout.yaml',
-    'modified' => 1618187929,
+    'modified' => 1619173198,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -183,25 +183,25 @@ return [
                 'attributes' => [
                     'items' => [
                         0 => [
-                            'icon' => 'fa fa-twitter fa-fw',
-                            'text' => '',
-                            'title' => '',
-                            'link' => '',
-                            'name' => 'Twitter'
-                        ],
-                        1 => [
                             'icon' => 'fa fa-facebook fa-fw',
                             'text' => '',
                             'title' => '',
-                            'link' => '',
+                            'link' => 'https://www.facebook.com/StarReisenSeyahat',
                             'name' => 'Facebook'
                         ],
-                        2 => [
+                        1 => [
                             'icon' => 'fa fa-google-plus fa-fw',
                             'text' => '',
                             'title' => '',
-                            'link' => '',
+                            'link' => 'https://star-reisen.business.site/',
                             'name' => 'Google+'
+                        ],
+                        2 => [
+                            'icon' => 'fa fa-instagram',
+                            'text' => '',
+                            'title' => '',
+                            'link' => 'https://www.instagram.com/star_reisen/',
+                            'name' => 'Instagram'
                         ]
                     ]
                 ],

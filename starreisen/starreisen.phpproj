@@ -1344,7 +1344,6 @@
     <Compile Include="components\com_wrapper\views\wrapper\tmpl\default.php" />
     <Compile Include="components\com_wrapper\views\wrapper\view.html.php" />
     <Compile Include="components\com_wrapper\wrapper.php" />
-    <Compile Include="configuration.php" />
     <Compile Include="includes\defines.php" />
     <Compile Include="includes\framework.php" />
     <Compile Include="index.php" />

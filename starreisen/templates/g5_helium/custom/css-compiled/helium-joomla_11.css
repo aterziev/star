@@ -104,7 +104,7 @@ legend small {
   line-height: 1.15;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  background: #e84a5f;
+  background: #f4f5f7;
   color: #fff;
   border: 1px solid transparent;
   border-radius: 2.5rem;
@@ -118,7 +118,7 @@ legend small {
 }
 /* line 19, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .edit.item-page .btn-toolbar .btn:hover, .pager.pagenav a:hover, p.readmore .btn:hover, .contact .form-actions .btn:hover, #contact-form .controls .btn-primary.validate:hover, .profile .btn:hover, .login .btn:hover, .logout .btn:hover, .registration .btn:hover, .profile-edit .btn:hover, .remind .btn:hover, .reset .btn:hover, .search #searchForm .btn:hover, .finder #searchForm .btn:hover, .search #search-form .btn:hover, .finder #search-form .btn:hover, .edit.item-page .btn-toolbar .btn:active, .pager.pagenav a:active, p.readmore .btn:active, .contact .form-actions .btn:active, #contact-form .controls .btn-primary.validate:active, .profile .btn:active, .login .btn:active, .logout .btn:active, .registration .btn:active, .profile-edit .btn:active, .remind .btn:active, .reset .btn:active, .search #searchForm .btn:active, .finder #searchForm .btn:active, .search #search-form .btn:active, .finder #search-form .btn:active, .edit.item-page .btn-toolbar .btn:focus, .pager.pagenav a:focus, p.readmore .btn:focus, .contact .form-actions .btn:focus, #contact-form .controls .btn-primary.validate:focus, .profile .btn:focus, .login .btn:focus, .logout .btn:focus, .registration .btn:focus, .profile-edit .btn:focus, .remind .btn:focus, .reset .btn:focus, .search #searchForm .btn:focus, .finder #searchForm .btn:focus, .search #search-form .btn:focus, .finder #search-form .btn:focus {
-  background: #e21d37;
+  background: #d6dae2;
   color: #fff;
 }
 /* line 24, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
@@ -128,13 +128,13 @@ legend small {
 }
 /* line 28, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .edit.item-page .btn-toolbar .btn:disabled:hover, .pager.pagenav a:disabled:hover, p.readmore .btn:disabled:hover, .contact .form-actions .btn:disabled:hover, #contact-form .controls .btn-primary.validate:disabled:hover, .profile .btn:disabled:hover, .login .btn:disabled:hover, .logout .btn:disabled:hover, .registration .btn:disabled:hover, .profile-edit .btn:disabled:hover, .remind .btn:disabled:hover, .reset .btn:disabled:hover, .search #searchForm .btn:disabled:hover, .finder #searchForm .btn:disabled:hover, .search #search-form .btn:disabled:hover, .finder #search-form .btn:disabled:hover {
-  background: #e84a5f;
+  background: #f4f5f7;
 }
 /* line 35, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .btn {
   border-radius: 0.25rem;
   border: 0;
-  color: #2a363b;
+  color: #94cbe3;
   box-shadow: none;
 }
 /* line 41, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
@@ -154,7 +154,7 @@ legend small {
   line-height: 1.15;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  background: #e84a5f;
+  background: #f4f5f7;
   color: #fff;
   border: 1px solid transparent;
   vertical-align: middle;
@@ -165,7 +165,7 @@ legend small {
 }
 /* line 65, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-  background: #e21d37;
+  background: #d6dae2;
   color: #fff;
 }
 /* line 71, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
@@ -174,16 +174,16 @@ legend small {
 }
 /* line 75, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .btn-group.open .btn-primary.dropdown-toggle {
-  background: #2a363b;
+  background: #8db6c7;
 }
 /* line 79, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-submenu:hover > a, .dropdown-submenu:focus > a {
   background-image: none;
-  background: #2a363b;
+  background: #8db6c7;
 }
 /* line 84, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .btn-link {
-  color: #e84a5f;
+  color: #f4f5f7;
 }
 /* line 89, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 table.table-bordered {
@@ -248,11 +248,11 @@ table.table-bordered thead th {
 }
 /* line 159, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .label-info, .badge-info {
-  background: #2a363b;
+  background: #8db6c7;
 }
 /* line 163, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .label-info[href], .badge-info[href] {
-  background: #2a363b;
+  background: #8db6c7;
 }
 /* line 169, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 /* line 170, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
@@ -314,7 +314,7 @@ blockquote {
 }
 /* line 44, templates/g5_helium/scss/helium-joomla/styles/_typography.scss */
 blockquote small {
-  color: #546d77;
+  color: #e5f2f8;
 }
 /* line 48, templates/g5_helium/scss/helium-joomla/styles/_typography.scss */
 blockquote.pull-right {
@@ -332,7 +332,7 @@ pre.prettyprint {
 }
 /* line 1, templates/g5_helium/scss/helium-joomla/styles/_forms.scss */
 legend {
-  color: #2a363b;
+  color: #94cbe3;
   font-family: "Lato", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
@@ -354,7 +354,7 @@ legend {
 }
 /* line 25, templates/g5_helium/scss/helium-joomla/styles/_forms.scss */
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
-  color: #2a363b;
+  color: #94cbe3;
   background-color: #fff;
   border: 1px solid #e0e0e5;
   box-sizing: border-box !important;
@@ -415,7 +415,7 @@ textarea {
 }
 /* line 116, templates/g5_helium/scss/helium-joomla/styles/_forms.scss */
 select {
-  color: #2a363b;
+  color: #94cbe3;
   background: #fff;
   border: 1px solid #e0e0e5;
 }
@@ -502,11 +502,11 @@ select {
 /* line 2, templates/g5_helium/scss/helium-joomla/styles/_tags.scss */
 .chzn-container .chzn-drop, .chzn-container .chzn-results li.no-results {
   border: 1px solid rgba(0, 0, 0, 0.1);
-  color: #2a363b;
+  color: #94cbe3;
 }
 /* line 7, templates/g5_helium/scss/helium-joomla/styles/_tags.scss */
 .chzn-container-multi .chzn-choices {
-  color: #2a363b;
+  color: #94cbe3;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   width: 250px;
@@ -518,7 +518,7 @@ select {
   height: 35px;
   margin: 0;
   padding: 0 5px;
-  color: #2a363b !important;
+  color: #94cbe3 !important;
 }
 /* line 2, templates/g5_helium/scss/helium-joomla/styles/_utilities.scss */
 .tip-wrap {
@@ -776,7 +776,7 @@ a.thumbnail:hover, a.thumbnail:focus {
   font-size: 0.7rem;
   font-weight: 400;
   border-radius: 0.25rem;
-  color: #2a363b;
+  color: #94cbe3;
   background: #e0e0e0;
 }
 /* line 49, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
@@ -842,7 +842,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 /* line 112, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 .moduletable #login-form .control-group .input-prepend .add-on [class^="icon-"], .moduletable #login-form .control-group .input-prepend .add-on [class*=" icon-"] {
   width: auto;
-  background: #e84a5f;
+  background: #f4f5f7;
   padding: 0.45rem 1rem;
   border-radius: 3px;
 }
@@ -893,7 +893,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 }
 /* line 171, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 #g-offcanvas .moduletable .nav li.active, #g-offcanvas .moduletable .nav.menu li.active {
-  background: #e3263f;
+  background: #dce0e6;
 }
 /* line 174, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 #g-offcanvas .moduletable .nav li.active a, #g-offcanvas .moduletable .nav.menu li.active a {
@@ -902,7 +902,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 }
 /* line 180, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 #g-offcanvas .moduletable .nav li:hover, #g-offcanvas .moduletable .nav.menu li:hover {
-  background: #e5334b;
+  background: #e5e8ec;
 }
 /* line 185, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 #g-offcanvas .moduletable .nav .nav-header, #g-offcanvas .moduletable .nav.menu .nav-header {
@@ -911,7 +911,7 @@ a.thumbnail:hover, a.thumbnail:focus {
   font-size: 0.7rem;
   font-weight: 400;
   border-radius: 0.25rem;
-  color: #2a363b;
+  color: #94cbe3;
   background: #e0e0e0;
 }
 /* line 195, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
@@ -933,7 +933,7 @@ dl.article-info dd {
   margin: 0;
   font-family: "Raleway", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
   text-transform: uppercase;
-  color: #2a363b;
+  color: #94cbe3;
   font-size: 0.85rem;
   line-height: 1.35;
 }

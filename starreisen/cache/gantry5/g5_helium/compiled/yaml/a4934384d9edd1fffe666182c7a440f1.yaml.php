@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:\\xampp\\htdocs\\starreisen2\\starreisen\\starreisen/templates/g5_helium/custom/config/default/styles.yaml',
-    'modified' => 1618185285,
+    'modified' => 1619172811,
     'data' => [
         'preset' => 'preset4',
         'base' => [
@@ -10,7 +10,7 @@ return [
             'text-color' => '#2a363b'
         ],
         'accent' => [
-            'color-1' => '#e84a5f',
+            'color-1' => '#f55f71',
             'color-2' => '#2a363b'
         ],
         'font' => [

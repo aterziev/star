@@ -3,7 +3,7 @@ base:
   background: '#ffffff'
   text-color: '#2a363b'
 accent:
-  color-1: '#e84a5f'
+  color-1: '#f55f71'
   color-2: '#2a363b'
 font:
   family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'

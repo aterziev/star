@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1618190405,
-    'checksum' => 'e255f15de859c345bc03270a13e3771d',
+    'timestamp' => 1619172814,
+    'checksum' => 'e41f5f54c9cac1cdd4bd5f16894eab8a',
     'files' => [
         'templates/g5_helium/custom/config/13' => [
             'assignments' => [
@@ -121,7 +121,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_helium/custom/config/default/styles.yaml',
-                'modified' => 1618185285
+                'modified' => 1619172811
             ]
         ],
         'templates/g5_helium/config/default' => [
@@ -445,7 +445,7 @@ return [
                 'text-color' => '#2a363b'
             ],
             'accent' => [
-                'color-1' => '#e84a5f',
+                'color-1' => '#f55f71',
                 'color-2' => '#2a363b'
             ],
             'base' => [

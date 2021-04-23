@@ -118,7 +118,7 @@ i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full, i.fa-grav-logo, i.fa-grav-sy
 /* line 1, templates/g5_helium/scss/helium/styles/_core.scss */
 body {
   color: #2a363b;
-  background: #5e2931;
+  background: #94cbe3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: auto;
 }
@@ -1550,13 +1550,13 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, templates/g5_helium/scss/helium/sections/_pagesurround.scss */
 #g-page-surround {
-  background: #5e2931;
+  background: #94cbe3;
   overflow: hidden;
 }
 /* line 5, templates/g5_helium/scss/helium/sections/_pagesurround.scss */
 .g-bodyonly #g-page-surround {
   color: #2a363b;
-  background: #5e2931;
+  background: #94cbe3;
 }
 @media print {
   /* line 12, templates/g5_helium/scss/helium/sections/_pagesurround.scss */
@@ -1567,7 +1567,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, templates/g5_helium/scss/helium/sections/_header.scss */
 #g-header {
-  background-color: #2a363b;
+  background-color: #94cbe3;
   color: #eceeef;
   padding: 3rem 0;
   position: relative;
@@ -1638,7 +1638,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, templates/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation {
-  background: #2a363b;
+  background: #94cbe3;
   color: #fff;
   position: relative;
   z-index: 11;
@@ -1743,7 +1743,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 111, templates/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown {
-  background: #2e3b41;
+  background: #9ccfe5;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.25rem;
 }
@@ -2044,7 +2044,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, templates/g5_helium/scss/helium/sections/_utility.scss */
 #g-utility {
-  background: #2a363b;
+  background: #94cbe3;
   color: #fff;
   padding: 3rem 0;
 }
@@ -2127,7 +2127,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, templates/g5_helium/scss/helium/sections/_main.scss */
 #g-mainbar {
-  background: #5e2931;
+  background: #94cbe3;
   color: #2a363b;
   padding: 3rem 0;
 }
@@ -2140,7 +2140,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, templates/g5_helium/scss/helium/sections/_aside.scss */
 #g-aside {
-  background: #5e2931;
+  background: #94cbe3;
   color: #2a363b;
   padding: 3rem 0;
 }
@@ -2153,7 +2153,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, templates/g5_helium/scss/helium/sections/_sidebar.scss */
 #g-sidebar {
-  background: #5e2931;
+  background: #94cbe3;
   color: #2a363b;
   padding: 3rem 0;
 }
@@ -2166,7 +2166,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 1, templates/g5_helium/scss/helium/sections/_footer.scss */
 #g-footer {
-  background: #2a363b;
+  background: #94cbe3;
   color: #fff;
   padding: 3rem 0;
 }

@@ -1,12 +1,12 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/custom__error.css',
-    'timestamp' => 1618190798,
+    'timestamp' => 1619172812,
     'md5' => '76409eda08dc6d5acbab915ed8c6e4a1',
     'variables' => [
         'above-background' => '#f4f5f7',
         'above-text-color' => '#2a363b',
-        'accent-color-1' => '#e84a5f',
+        'accent-color-1' => '#f55f71',
         'accent-color-2' => '#2a363b',
         'base-background' => '#ffffff',
         'base-text-color' => '#2a363b',

@@ -1,12 +1,12 @@
 <?php
 return [
     'file' => 'gantry-theme://css-compiled/helium-joomla__error.css',
-    'timestamp' => 1618190798,
-    'md5' => 'd6711197092e5d9e7467e34eca3cc9d5',
+    'timestamp' => 1619172812,
+    'md5' => '55c115cd8224e73de6678c0d42a6e0b2',
     'variables' => [
         'above-background' => '#f4f5f7',
         'above-text-color' => '#2a363b',
-        'accent-color-1' => '#e84a5f',
+        'accent-color-1' => '#f55f71',
         'accent-color-2' => '#2a363b',
         'base-background' => '#ffffff',
         'base-text-color' => '#2a363b',

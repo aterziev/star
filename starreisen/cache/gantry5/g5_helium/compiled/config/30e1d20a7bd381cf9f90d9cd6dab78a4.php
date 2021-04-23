@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1618657014,
-    'checksum' => '4067bfb01822debcf6464984f2c6533b',
+    'timestamp' => 1619174281,
+    'checksum' => '2998cb4c5a28a188fb9623a7106b87e7',
     'files' => [
         'templates/g5_helium/custom/config/15' => [
             'assignments' => [
@@ -11,21 +11,21 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/15/index.yaml',
-                'modified' => 1618187929
+                'modified' => 1619173198
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/15/layout.yaml',
-                'modified' => 1618187929
+                'modified' => 1619173198
             ]
         ],
         'templates/g5_helium/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/default/index.yaml',
-                'modified' => 1618187929
+                'modified' => 1619173198
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/default/layout.yaml',
-                'modified' => 1618187929
+                'modified' => 1619173198
             ],
             'page/assets' => [
                 'file' => 'templates/g5_helium/custom/config/default/page/assets.yaml',
@@ -121,7 +121,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_helium/custom/config/default/styles.yaml',
-                'modified' => 1618185285
+                'modified' => 1619172811
             ]
         ],
         'templates/g5_helium/config/default' => [
@@ -445,7 +445,7 @@ return [
                 'text-color' => '#2a363b'
             ],
             'accent' => [
-                'color-1' => '#e84a5f',
+                'color-1' => '#f55f71',
                 'color-2' => '#2a363b'
             ],
             'base' => [
@@ -558,7 +558,7 @@ return [
         ],
         'index' => [
             'name' => 15,
-            'timestamp' => 1618187929,
+            'timestamp' => 1619173198,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',

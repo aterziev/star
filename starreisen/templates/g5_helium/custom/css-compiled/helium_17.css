@@ -125,12 +125,12 @@ body {
 /* line 7, templates/g5_helium/scss/helium/styles/_core.scss */
 body *::selection {
   color: #fff;
-  background: #e84a5f;
+  background: #f55f71;
 }
 /* line 12, templates/g5_helium/scss/helium/styles/_core.scss */
 body *::-moz-selection {
   color: #fff;
-  background: #e84a5f;
+  background: #f55f71;
 }
 /* line 18, templates/g5_helium/scss/helium/styles/_core.scss */
 body p {
@@ -522,13 +522,13 @@ hr {
 /* line 100, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 101, templates/g5_helium/scss/helium/styles/_variations.scss */
 .title1 .g-title {
-  background: #e84a5f;
+  background: #f55f71;
   color: #fff;
 }
 /* line 108, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 109, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box1.moduletable, .box1.widget, .box1.g-outer-box, .box1 > .g-content {
-  background: #e3263f;
+  background: #f3394f;
 }
 /* line 115, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box1.moduletable, .box1.widget, .box1 > .g-content {
@@ -540,11 +540,11 @@ hr {
 }
 /* line 123, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box1 .button:hover {
-  background: #cc1a32;
+  background: #f11731;
 }
 /* line 128, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box1 a {
-  color: #f9d2d7;
+  color: #feeff1;
 }
 /* line 131, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box1 a:hover {
@@ -553,7 +553,7 @@ hr {
 /* line 138, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 139, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box1.title1 .g-title {
-  background: #cc1a32;
+  background: #f11731;
 }
 /* line 145, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 146, templates/g5_helium/scss/helium/styles/_variations.scss */
@@ -595,17 +595,17 @@ hr {
 /* line 191, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 192, templates/g5_helium/scss/helium/styles/_variations.scss */
 .title-gradient .g-title {
-  background-color: #e84a5f;
-  background-image: -webkit-linear-gradient(-360deg, #e84a5f, #2a363b);
-  background-image: linear-gradient(90deg,#e84a5f, #2a363b);
+  background-color: #f55f71;
+  background-image: -webkit-linear-gradient(-360deg, #f55f71, #2a363b);
+  background-image: linear-gradient(90deg,#f55f71, #2a363b);
   color: #fff;
 }
 /* line 199, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 200, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient.moduletable, .box-gradient.widget, .box-gradient.g-outer-box, .box-gradient > .g-content {
-  background-color: #e84a5f;
-  background-image: -webkit-linear-gradient(-315deg, #e84a5f, #2a363b);
-  background-image: linear-gradient(45deg,#e84a5f, #2a363b);
+  background-color: #f55f71;
+  background-image: -webkit-linear-gradient(-315deg, #f55f71, #2a363b);
+  background-image: linear-gradient(45deg,#f55f71, #2a363b);
 }
 /* line 206, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient.moduletable, .box-gradient.widget, .box-gradient > .g-content {
@@ -614,15 +614,15 @@ hr {
 /* line 211, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient .button {
   color: #fff;
-  background: #e5334b;
+  background: #f4475c;
 }
 /* line 215, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient .button:hover {
-  background: #cc1a32;
+  background: #f11731;
 }
 /* line 220, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient a {
-  color: #f9d2d7;
+  color: #feeff1;
 }
 /* line 223, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient a:hover {
@@ -631,25 +631,25 @@ hr {
 /* line 230, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 231, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box-gradient.title-gradient .g-title {
-  background-color: #e84a5f;
-  background-image: -webkit-linear-gradient(-280deg, #e84a5f, #2a363b);
-  background-image: linear-gradient(10deg,#e84a5f, #2a363b);
+  background-color: #f55f71;
+  background-image: -webkit-linear-gradient(-280deg, #f55f71, #2a363b);
+  background-image: linear-gradient(10deg,#f55f71, #2a363b);
 }
 /* line 237, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 238, templates/g5_helium/scss/helium/styles/_variations.scss */
 .title-outline .g-title {
-  border: 1px solid #e84a5f;
+  border: 1px solid #f55f71;
 }
 /* line 244, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 245, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box-outline.moduletable, .box-outline.widget, .box-outline.g-outer-box, .box-outline > .g-content {
-  border: 1px solid #e84a5f;
+  border: 1px solid #f55f71;
 }
 /* line 253, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 254, templates/g5_helium/scss/helium/styles/_variations.scss */
 .box-outline.title-outline .g-title {
   border: none;
-  border-bottom: 1px solid #e84a5f;
+  border-bottom: 1px solid #f55f71;
 }
 /* line 261, templates/g5_helium/scss/helium/styles/_variations.scss */
 /* line 262, templates/g5_helium/scss/helium/styles/_variations.scss */
@@ -690,7 +690,7 @@ hr {
   line-height: 1.15;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  background: #e84a5f;
+  background: #f55f71;
   color: #fff;
   border: 1px solid transparent;
   border-radius: 2.5rem;
@@ -704,7 +704,7 @@ hr {
 }
 /* line 20, templates/g5_helium/scss/helium/styles/_buttons.scss */
 .button:hover, .button:active, .button:focus {
-  background: #e21d37;
+  background: #f22f46;
   color: #fff;
   outline: 0;
 }
@@ -715,7 +715,7 @@ hr {
 }
 /* line 30, templates/g5_helium/scss/helium/styles/_buttons.scss */
 .button:disabled:hover {
-  background: #e84a5f;
+  background: #f55f71;
 }
 /* line 36, templates/g5_helium/scss/helium/styles/_buttons.scss */
 /* line 39, templates/g5_helium/scss/helium/styles/_buttons.scss */
@@ -768,25 +768,25 @@ hr {
 /* line 86, templates/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-outline {
   background: transparent;
-  color: #e84a5f;
-  border-color: #e84a5f;
+  color: #f55f71;
+  border-color: #f55f71;
 }
 /* line 91, templates/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-outline:hover, .button.button-outline:active, .button.button-outline:focus {
-  background: #e84a5f;
+  background: #f55f71;
   border-color: transparent;
   color: #fff;
 }
 /* line 98, templates/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-gradient {
-  background-color: #e84a5f;
-  background-image: -webkit-linear-gradient(-360deg, #e84a5f, #2a363b);
-  background-image: linear-gradient(90deg,#e84a5f, #2a363b);
+  background-color: #f55f71;
+  background-image: -webkit-linear-gradient(-360deg, #f55f71, #2a363b);
+  background-image: linear-gradient(90deg,#f55f71, #2a363b);
   border: none;
 }
 /* line 102, templates/g5_helium/scss/helium/styles/_buttons.scss */
 .button.button-gradient:hover, .button.button-gradient:active, .button.button-gradient:focus {
-  background: #e84a5f;
+  background: #f55f71;
   color: white;
 }
 /* line 108, templates/g5_helium/scss/helium/styles/_buttons.scss */
@@ -818,13 +818,13 @@ textarea, select[multiple=multiple] {
 }
 /* line 5, templates/g5_helium/scss/helium/styles/_forms.scss */
 textarea:hover, select[multiple=multiple]:hover {
-  border-color: #e84a5f;
-  box-shadow: 0 0 4px rgba(232, 74, 95, 0.5);
+  border-color: #f55f71;
+  box-shadow: 0 0 4px rgba(245, 95, 113, 0.5);
 }
 /* line 10, templates/g5_helium/scss/helium/styles/_forms.scss */
 textarea:focus, select[multiple=multiple]:focus {
-  border-color: #e84a5f;
-  box-shadow: 0 0 4px rgba(232, 74, 95, 0.5);
+  border-color: #f55f71;
+  box-shadow: 0 0 4px rgba(245, 95, 113, 0.5);
 }
 /* line 16, templates/g5_helium/scss/helium/styles/_forms.scss */
 textarea {
@@ -852,19 +852,19 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
 }
 /* line 37, templates/g5_helium/scss/helium/styles/_forms.scss */
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
-  box-shadow: 0 0 4px rgba(232, 74, 95, 0.5);
+  box-shadow: 0 0 4px rgba(245, 95, 113, 0.5);
 }
 /* line 41, templates/g5_helium/scss/helium/styles/_forms.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-  box-shadow: 0 0 4px rgba(232, 74, 95, 0.5);
+  box-shadow: 0 0 4px rgba(245, 95, 113, 0.5);
 }
 /* line 46, templates/g5_helium/scss/helium/styles/_forms.scss */
 input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
-  border-color: #e84a5f;
+  border-color: #f55f71;
 }
 /* line 50, templates/g5_helium/scss/helium/styles/_forms.scss */
 input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
-  border-color: #e84a5f;
+  border-color: #f55f71;
 }
 /* line 1, templates/g5_helium/scss/helium/styles/_dropdownanimations.scss */
 /* line 2, templates/g5_helium/scss/helium/styles/_dropdownanimations.scss */
@@ -1393,7 +1393,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 @media only all and (max-width: 47.99rem) {
   .g-home-particles.g-helium-style #g-navigation .g-social a:hover {
-    color: #e84a5f;
+    color: #f55f71;
   }
 }
 /* line 41, templates/g5_helium/scss/helium/styles/_helium-style.scss */
@@ -1585,9 +1585,9 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   content: "";
   z-index: -1;
   opacity: 0.85;
-  background-color: #e84a5f;
-  background-image: -webkit-linear-gradient(-310deg, #e84a5f, #2a363b);
-  background-image: linear-gradient(40deg,#e84a5f, #2a363b);
+  background-color: #f55f71;
+  background-image: -webkit-linear-gradient(-310deg, #f55f71, #2a363b);
+  background-image: linear-gradient(40deg,#f55f71, #2a363b);
 }
 /* line 32, templates/g5_helium/scss/helium/sections/_header.scss */
 #g-header a {
@@ -1753,7 +1753,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 123, templates/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown a:hover {
-  color: #e84a5f;
+  color: #f55f71;
 }
 /* line 128, templates/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-dropdown .g-dropdown-column {
@@ -1785,11 +1785,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 158, templates/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 159, templates/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li:hover > .g-menu-item-container, #g-navigation .g-main-nav .g-sublevel > li.active > .g-menu-item-container {
-  color: #e84a5f;
+  color: #f55f71;
 }
 /* line 162, templates/g5_helium/scss/helium/sections/_navigation.scss */
 #g-navigation .g-main-nav .g-sublevel > li:hover > .g-menu-item-container > .g-selected, #g-navigation .g-main-nav .g-sublevel > li.active > .g-menu-item-container > .g-selected {
-  color: #e84a5f;
+  color: #f55f71;
 }
 /* line 168, templates/g5_helium/scss/helium/sections/_navigation.scss */
 /* line 169, templates/g5_helium/scss/helium/sections/_navigation.scss */
@@ -2076,9 +2076,9 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 13, templates/g5_helium/scss/helium/sections/_testimonials.scss */
 #g-testimonials:before {
-  background-color: #e84a5f;
-  background-image: -webkit-linear-gradient(-310deg, #e84a5f, #2a363b);
-  background-image: linear-gradient(40deg,#e84a5f, #2a363b);
+  background-color: #f55f71;
+  background-image: -webkit-linear-gradient(-310deg, #f55f71, #2a363b);
+  background-image: linear-gradient(40deg,#f55f71, #2a363b);
   opacity: 0.9;
   position: absolute;
   content: "";
@@ -2090,7 +2090,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 27, templates/g5_helium/scss/helium/sections/_testimonials.scss */
 #g-testimonials a {
-  color: #f4a5af;
+  color: #fbbfc6;
 }
 /* line 30, templates/g5_helium/scss/helium/sections/_testimonials.scss */
 #g-testimonials a:hover {
@@ -2230,7 +2230,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 9, templates/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas a:hover {
-  color: #9e1427;
+  color: #c80d23;
 }
 /* line 14, templates/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas h1, #g-offcanvas h2, #g-offcanvas h3, #g-offcanvas h4, #g-offcanvas h5, #g-offcanvas h6, #g-offcanvas strong {
@@ -2324,25 +2324,25 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 113, templates/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module).active {
-  background: #e3263f;
+  background: #f3394f;
 }
 /* line 117, templates/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li:not(.g-menu-item-type-particle):not(.g-menu-item-type-module):hover {
-  background: #e5334b;
+  background: #f4475c;
 }
 /* line 122, templates/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 123, templates/g5_helium/scss/helium/sections/_offcanvas.scss */
 /* line 124, templates/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator {
-  border: 1px solid #eb6577;
-  background: #e6384f;
+  border: 1px solid #f77c8b;
+  background: #f44c60;
   border-radius: 0.25rem;
   margin: -0.3rem 0 -0.2rem 0.5rem;
   padding: 0.2rem;
 }
 /* line 128, templates/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul > li.g-menu-item-link-parent > .g-menu-item-container > .g-menu-parent-indicator:hover {
-  background: #e3263f;
+  background: #f3394f;
 }
 /* line 140, templates/g5_helium/scss/helium/sections/_offcanvas.scss */
 #g-offcanvas #g-mobilemenu-container ul .g-dropdown-column {
@@ -2616,7 +2616,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 1, templates/g5_helium/scss/helium/particles/_contentcubes.scss */
 /* line 3, templates/g5_helium/scss/helium/particles/_contentcubes.scss */
 .g-contentcubes .cube-items-wrapper {
-  background: linear-gradient(45deg, #2a363b, #e84a5f);
+  background: linear-gradient(45deg, #2a363b, #f55f71);
   color: #fff;
 }
 /* line 8, templates/g5_helium/scss/helium/particles/_contentcubes.scss */
@@ -2703,7 +2703,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 80, templates/g5_helium/scss/helium/particles/_contentcubes.scss */
 .g-contentcubes .cube-items-wrapper .cube-content-wrapper .item-label {
   display: inline-block;
-  background: #e84a5f;
+  background: #f55f71;
   padding: 0.35em 0.85em;
   margin-bottom: 0.5rem;
   font-size: 0.8125rem;
@@ -2841,7 +2841,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   margin-right: 3px;
   padding: 0.938rem 1.876rem;
   border-radius: 0.25rem 0.25rem 0 0;
-  background: rgba(232, 74, 95, 0.15);
+  background: rgba(245, 95, 113, 0.15);
 }
 @media only all and (max-width: 47.99rem) {
   .g-contenttabs .g-contenttabs-tab-wrapper-head {
@@ -2894,7 +2894,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 106, templates/g5_helium/scss/helium/particles/_contenttabs.scss */
 /* line 107, templates/g5_helium/scss/helium/particles/_contenttabs.scss */
 .ui-tabs-active .g-contenttabs-tab-wrapper-head {
-  background: #e84a5f;
+  background: #f55f71;
 }
 /* line 111, templates/g5_helium/scss/helium/particles/_contenttabs.scss */
 .ui-tabs-active .g-contenttabs-tab-title {
@@ -3480,10 +3480,10 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* line 553, templates/g5_helium/scss/helium/particles/_owlcarousel.scss */
 /* line 554, templates/g5_helium/scss/helium/particles/_owlcarousel.scss */
 .g-owlcarousel.has-color-overlay .owl-stage > .owl-item:nth-child(even) .g-owlcarousel-item-img:after {
-  background-color: #e84a5f;
-  background-color: #e84a5f;
-  background-image: -webkit-linear-gradient(-310deg, #e84a5f, #2a363b);
-  background-image: linear-gradient(40deg,#e84a5f, #2a363b);
+  background-color: #f55f71;
+  background-color: #f55f71;
+  background-image: -webkit-linear-gradient(-310deg, #f55f71, #2a363b);
+  background-image: linear-gradient(40deg,#f55f71, #2a363b);
   opacity: 0.9;
 }
 /* line 561, templates/g5_helium/scss/helium/particles/_owlcarousel.scss */
@@ -3491,8 +3491,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .g-owlcarousel.has-color-overlay .owl-stage > .owl-item:nth-child(odd) .g-owlcarousel-item-img:after {
   background-color: #2a363b;
   background-color: #2a363b;
-  background-image: -webkit-linear-gradient(-410deg, #2a363b, #e84a5f);
-  background-image: linear-gradient(140deg,#2a363b, #e84a5f);
+  background-image: -webkit-linear-gradient(-410deg, #2a363b, #f55f71);
+  background-image: linear-gradient(140deg,#2a363b, #f55f71);
   opacity: 0.9;
 }
 /* line 1, templates/g5_helium/scss/helium/particles/_horizontalmenu.scss */

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1618657026,
-    'checksum' => '20a6574cff4e17902173034f6c70e3e7',
+    'timestamp' => 1619176826,
+    'checksum' => 'ee7d14015c3c5ef3d9a4af079452957a',
     'files' => [
         'templates/g5_helium/custom/config/12' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/12/index.yaml',
-                'modified' => 1618189984
+                'modified' => 1619173198
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/12/layout.yaml',
-                'modified' => 1618189984
+                'modified' => 1619173198
             ],
             'page/head' => [
                 'file' => 'templates/g5_helium/custom/config/12/page/head.yaml',
@@ -23,7 +23,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_helium/custom/config/12/styles.yaml',
-                'modified' => 1618190630
+                'modified' => 1619174382
             ]
         ]
     ],
@@ -37,8 +37,8 @@ return [
             ]
         ],
         'index' => [
-            'name' => '12',
-            'timestamp' => 1618189984,
+            'name' => 12,
+            'timestamp' => 1619173198,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -63,19 +63,6 @@ return [
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
-                'messages' => [
-                    'system-messages-7755' => 'System Messages'
-                ],
-                'logo' => [
-                    'logo-3125' => 'Logo / Image',
-                    'logo-5600' => 'Logo / Image'
-                ],
-                'menu' => [
-                    'menu-3165' => 'Menu'
-                ],
-                'social' => [
-                    'social-8160' => 'Social'
-                ],
                 'content' => [
                     'system-content-8349' => 'Page Content'
                 ],
@@ -94,6 +81,19 @@ return [
                 'contenttabs' => [
                     'contenttabs-3854' => 'Content Tabs'
                 ],
+                'messages' => [
+                    'system-messages-7755' => 'System Messages'
+                ],
+                'logo' => [
+                    'logo-3125' => 'Logo / Image',
+                    'logo-5600' => 'Logo / Image'
+                ],
+                'menu' => [
+                    'menu-3165' => 'Menu'
+                ],
+                'social' => [
+                    'social-8160' => 'Social'
+                ],
                 'copyright' => [
                     'copyright-6427' => 'Copyright'
                 ],
@@ -110,16 +110,16 @@ return [
             'inherit' => [
                 'default' => [
                     'navigation' => 'navigation',
+                    'footer' => 'footer',
+                    'offcanvas' => 'offcanvas',
                     'system-messages-7755' => 'system-messages-7972',
                     'logo-3125' => 'logo-9608',
                     'menu-3165' => 'menu-6409',
                     'social-8160' => 'social-3171',
-                    'footer' => 'footer',
                     'logo-5600' => 'logo-9571',
                     'copyright-6427' => 'copyright-1736',
                     'horizontalmenu-7999' => 'horizontalmenu-9034',
                     'totop-2208' => 'totop-8670',
-                    'offcanvas' => 'offcanvas',
                     'mobile-menu-6089' => 'mobile-menu-5697'
                 ]
             ]
@@ -612,7 +612,7 @@ a handful of things you can do with Gantry 5’s powerful Menu Editor.</p>
         'styles' => [
             'preset' => 'preset4',
             'base' => [
-                'background' => '#5e2931',
+                'background' => '#2a363b',
                 'text-color' => '#2a363b'
             ],
             'accent' => [
@@ -620,7 +620,8 @@ a handful of things you can do with Gantry 5’s powerful Menu Editor.</p>
                 'color-2' => '#2a363b'
             ],
             'link' => [
-                'regular' => '#e84a5f'
+                'regular' => '#e84a5f',
+                'hover' => '#2a363b'
             ],
             'navigation' => [
                 'background' => '#2a363b',

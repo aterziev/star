@@ -1,17 +1,17 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1618190379,
-    'checksum' => 'fc814fcf6083a38c63291a1009f8aa7c',
+    'timestamp' => 1619173231,
+    'checksum' => 'e64dfd1b86470b0488f6f3a6d38cf3c4',
     'files' => [
         'templates/g5_helium/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/default/index.yaml',
-                'modified' => 1618187929
+                'modified' => 1619173198
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/default/layout.yaml',
-                'modified' => 1618187929
+                'modified' => 1619173198
             ],
             'page/assets' => [
                 'file' => 'templates/g5_helium/custom/config/default/page/assets.yaml',
@@ -107,7 +107,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_helium/custom/config/default/styles.yaml',
-                'modified' => 1618185285
+                'modified' => 1619172811
             ]
         ],
         'templates/g5_helium/config/default' => [
@@ -431,7 +431,7 @@ return [
                 'text-color' => '#2a363b'
             ],
             'accent' => [
-                'color-1' => '#e84a5f',
+                'color-1' => '#f55f71',
                 'color-2' => '#2a363b'
             ],
             'base' => [
@@ -544,7 +544,7 @@ return [
         ],
         'index' => [
             'name' => 'default',
-            'timestamp' => 1618187929,
+            'timestamp' => 1619173198,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -788,25 +788,25 @@ return [
                     'attributes' => [
                         'items' => [
                             0 => [
-                                'icon' => 'fa fa-twitter fa-fw',
-                                'text' => '',
-                                'title' => '',
-                                'link' => '',
-                                'name' => 'Twitter'
-                            ],
-                            1 => [
                                 'icon' => 'fa fa-facebook fa-fw',
                                 'text' => '',
                                 'title' => '',
-                                'link' => '',
+                                'link' => 'https://www.facebook.com/StarReisenSeyahat',
                                 'name' => 'Facebook'
                             ],
-                            2 => [
+                            1 => [
                                 'icon' => 'fa fa-google-plus fa-fw',
                                 'text' => '',
                                 'title' => '',
-                                'link' => '',
+                                'link' => 'https://star-reisen.business.site/',
                                 'name' => 'Google+'
+                            ],
+                            2 => [
+                                'icon' => 'fa fa-instagram',
+                                'text' => '',
+                                'title' => '',
+                                'link' => 'https://www.instagram.com/star_reisen/',
+                                'name' => 'Instagram'
                             ]
                         ]
                     ],

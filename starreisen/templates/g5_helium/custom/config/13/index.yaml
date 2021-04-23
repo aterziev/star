@@ -1,5 +1,5 @@
 name: 13
-timestamp: 1618187929
+timestamp: 1619173198
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -36,8 +36,6 @@ particles:
     menu-4005: Menu
   social:
     social-4145: Social
-  module:
-    position-module-5659: 'Module Instance'
   copyright:
     copyright-2945: Copyright
   horizontalmenu:

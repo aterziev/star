@@ -170,7 +170,7 @@ legend small {
 }
 /* line 71, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .btn-group > .btn.dropdown-toggle {
-  background: #33161b;
+  background: #63b3d6;
 }
 /* line 75, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .btn-group.open .btn-primary.dropdown-toggle {
@@ -355,7 +355,7 @@ legend {
 /* line 25, templates/g5_helium/scss/helium-joomla/styles/_forms.scss */
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
   color: #2a363b;
-  background-color: #5e2931;
+  background-color: #94cbe3;
   border: 1px solid #e0e0e5;
   box-sizing: border-box !important;
   -webkit-transition: border 0.2s linear, box-shadow 0.2s linear;
@@ -373,7 +373,7 @@ input[type="text"], input[type="password"], input[type="datetime"], input[type="
 }
 /* line 71, templates/g5_helium/scss/helium-joomla/styles/_forms.scss */
 .input-prepend > .add-on, .input-append > .add-on {
-  background: #291215;
+  background: #57aed3;
   border: 1px solid #e0e0e5;
   padding: 0.275rem;
   -webkit-padding-before: 7px;
@@ -416,7 +416,7 @@ textarea {
 /* line 116, templates/g5_helium/scss/helium-joomla/styles/_forms.scss */
 select {
   color: #2a363b;
-  background: #5e2931;
+  background: #94cbe3;
   border: 1px solid #e0e0e5;
 }
 /* line 123, templates/g5_helium/scss/helium-joomla/styles/_forms.scss */
@@ -777,7 +777,7 @@ a.thumbnail:hover, a.thumbnail:focus {
   font-weight: 400;
   border-radius: 0.25rem;
   color: #2a363b;
-  background: #33161b;
+  background: #63b3d6;
 }
 /* line 49, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 .moduletable .nav .nav-child {
@@ -912,7 +912,7 @@ a.thumbnail:hover, a.thumbnail:focus {
   font-weight: 400;
   border-radius: 0.25rem;
   color: #2a363b;
-  background: #33161b;
+  background: #63b3d6;
 }
 /* line 195, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 #g-offcanvas .moduletable .nav .nav-child, #g-offcanvas .moduletable .nav.menu .nav-child {
@@ -952,7 +952,7 @@ dl.article-info dd:not(:last-child):after {
   display: inline-block;
   font-weight: bold;
   margin-bottom: 1.25rem;
-  background: #421d22;
+  background: #74bbdb;
   border-radius: 0.25rem;
   padding: 0.3126666667rem 0.938rem;
 }
@@ -1008,7 +1008,7 @@ dl.article-info dd:not(:last-child):after {
 }
 /* line 99, templates/g5_helium/scss/helium-joomla/components/_content.scss */
 .chzn-container-single .chzn-single, .chzn-container-active.chzn-with-drop .chzn-single {
-  background: #5e2931;
+  background: #94cbe3;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: none;
   height: 40px;
@@ -1117,7 +1117,7 @@ dl.article-info dd:not(:last-child):after {
 }
 /* line 21, templates/g5_helium/scss/helium-joomla/components/_search.scss */
 .search span.highlight, .finder span.highlight {
-  background-color: #3a1a1e;
+  background-color: #6cb7d8;
 }
 /* line 2, templates/g5_helium/scss/helium-joomla/particles/_popupmodule.scss */
 /* line 3, templates/g5_helium/scss/helium-joomla/particles/_popupmodule.scss */

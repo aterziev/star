@@ -2,10 +2,10 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/templates/g5_helium/custom/config/14/index.yaml',
-    'modified' => 1618187929,
+    'modified' => 1619173198,
     'data' => [
         'name' => 14,
-        'timestamp' => 1618187929,
+        'timestamp' => 1619173198,
         'version' => 7,
         'preset' => [
             'image' => 'gantry-admin://images/layouts/default.png',
@@ -69,9 +69,6 @@ return [
             ],
             'social' => [
                 'social-9194' => 'Social'
-            ],
-            'module' => [
-                'position-module-2977' => 'Module Instance'
             ],
             'position' => [
                 'position-position-3856' => 'Sidebar'

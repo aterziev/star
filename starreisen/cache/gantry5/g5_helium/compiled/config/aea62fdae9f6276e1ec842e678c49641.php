@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1618190630,
-    'checksum' => 'f97eb19810df5882d493ad424b0517e5',
+    'timestamp' => 1619176934,
+    'checksum' => 'f8887fc77d1e67c8f4678eeef7171f69',
     'files' => [
         'templates/g5_helium/custom/config/12' => [
             'assignments' => [
@@ -11,11 +11,11 @@ return [
             ],
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/12/index.yaml',
-                'modified' => 1618189984
+                'modified' => 1619173198
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/12/layout.yaml',
-                'modified' => 1618189984
+                'modified' => 1619173198
             ],
             'page/head' => [
                 'file' => 'templates/g5_helium/custom/config/12/page/head.yaml',
@@ -23,17 +23,17 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_helium/custom/config/12/styles.yaml',
-                'modified' => 1618190630
+                'modified' => 1619176934
             ]
         ],
         'templates/g5_helium/custom/config/default' => [
             'index' => [
                 'file' => 'templates/g5_helium/custom/config/default/index.yaml',
-                'modified' => 1618187929
+                'modified' => 1619173198
             ],
             'layout' => [
                 'file' => 'templates/g5_helium/custom/config/default/layout.yaml',
-                'modified' => 1618187929
+                'modified' => 1619173198
             ],
             'page/assets' => [
                 'file' => 'templates/g5_helium/custom/config/default/page/assets.yaml',
@@ -129,7 +129,7 @@ return [
             ],
             'styles' => [
                 'file' => 'templates/g5_helium/custom/config/default/styles.yaml',
-                'modified' => 1618185285
+                'modified' => 1619172811
             ]
         ],
         'templates/g5_helium/config/default' => [
@@ -457,7 +457,7 @@ return [
                 'color-2' => '#2a363b'
             ],
             'base' => [
-                'background' => '#5e2931',
+                'background' => '#94cbe3',
                 'text-color' => '#2a363b'
             ],
             'breakpoints' => [
@@ -480,11 +480,11 @@ return [
                 'family-title' => 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
             ],
             'footer' => [
-                'background' => '#2a363b',
+                'background' => '#94cbe3',
                 'text-color' => '#ffffff'
             ],
             'header' => [
-                'background' => '#2a363b',
+                'background' => '#94cbe3',
                 'background-image' => 'gantry-media://header/img01.jpg',
                 'background-overlay' => 'enabled',
                 'text-color' => '#eceeef'
@@ -503,7 +503,7 @@ return [
                 'hide-on-mobile' => '0'
             ],
             'navigation' => [
-                'background' => '#2a363b',
+                'background' => '#94cbe3',
                 'text-color' => '#ffffff'
             ],
             'offcanvas' => [
@@ -520,7 +520,7 @@ return [
                 'text-color' => '#eceeef'
             ],
             'utility' => [
-                'background' => '#2a363b',
+                'background' => '#94cbe3',
                 'text-color' => '#ffffff'
             ],
             'preset' => 'preset4'
@@ -568,8 +568,8 @@ return [
             ]
         ],
         'index' => [
-            'name' => '12',
-            'timestamp' => 1618189984,
+            'name' => 12,
+            'timestamp' => 1619173198,
             'version' => 7,
             'preset' => [
                 'image' => 'gantry-admin://images/layouts/default.png',
@@ -594,19 +594,6 @@ return [
                 'offcanvas' => 'Offcanvas'
             ],
             'particles' => [
-                'messages' => [
-                    'system-messages-7755' => 'System Messages'
-                ],
-                'logo' => [
-                    'logo-3125' => 'Logo / Image',
-                    'logo-5600' => 'Logo / Image'
-                ],
-                'menu' => [
-                    'menu-3165' => 'Menu'
-                ],
-                'social' => [
-                    'social-8160' => 'Social'
-                ],
                 'content' => [
                     'system-content-8349' => 'Page Content'
                 ],
@@ -625,6 +612,19 @@ return [
                 'contenttabs' => [
                     'contenttabs-3854' => 'Content Tabs'
                 ],
+                'messages' => [
+                    'system-messages-7755' => 'System Messages'
+                ],
+                'logo' => [
+                    'logo-3125' => 'Logo / Image',
+                    'logo-5600' => 'Logo / Image'
+                ],
+                'menu' => [
+                    'menu-3165' => 'Menu'
+                ],
+                'social' => [
+                    'social-8160' => 'Social'
+                ],
                 'copyright' => [
                     'copyright-6427' => 'Copyright'
                 ],
@@ -641,16 +641,16 @@ return [
             'inherit' => [
                 'default' => [
                     'navigation' => 'navigation',
+                    'footer' => 'footer',
+                    'offcanvas' => 'offcanvas',
                     'system-messages-7755' => 'system-messages-7972',
                     'logo-3125' => 'logo-9608',
                     'menu-3165' => 'menu-6409',
                     'social-8160' => 'social-3171',
-                    'footer' => 'footer',
                     'logo-5600' => 'logo-9571',
                     'copyright-6427' => 'copyright-1736',
                     'horizontalmenu-7999' => 'horizontalmenu-9034',
                     'totop-2208' => 'totop-8670',
-                    'offcanvas' => 'offcanvas',
                     'mobile-menu-6089' => 'mobile-menu-5697'
                 ]
             ]

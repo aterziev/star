@@ -104,7 +104,7 @@ legend small {
   line-height: 1.15;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  background: #e84a5f;
+  background: #f55f71;
   color: #fff;
   border: 1px solid transparent;
   border-radius: 2.5rem;
@@ -118,7 +118,7 @@ legend small {
 }
 /* line 19, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .edit.item-page .btn-toolbar .btn:hover, .pager.pagenav a:hover, p.readmore .btn:hover, .contact .form-actions .btn:hover, #contact-form .controls .btn-primary.validate:hover, .profile .btn:hover, .login .btn:hover, .logout .btn:hover, .registration .btn:hover, .profile-edit .btn:hover, .remind .btn:hover, .reset .btn:hover, .search #searchForm .btn:hover, .finder #searchForm .btn:hover, .search #search-form .btn:hover, .finder #search-form .btn:hover, .edit.item-page .btn-toolbar .btn:active, .pager.pagenav a:active, p.readmore .btn:active, .contact .form-actions .btn:active, #contact-form .controls .btn-primary.validate:active, .profile .btn:active, .login .btn:active, .logout .btn:active, .registration .btn:active, .profile-edit .btn:active, .remind .btn:active, .reset .btn:active, .search #searchForm .btn:active, .finder #searchForm .btn:active, .search #search-form .btn:active, .finder #search-form .btn:active, .edit.item-page .btn-toolbar .btn:focus, .pager.pagenav a:focus, p.readmore .btn:focus, .contact .form-actions .btn:focus, #contact-form .controls .btn-primary.validate:focus, .profile .btn:focus, .login .btn:focus, .logout .btn:focus, .registration .btn:focus, .profile-edit .btn:focus, .remind .btn:focus, .reset .btn:focus, .search #searchForm .btn:focus, .finder #searchForm .btn:focus, .search #search-form .btn:focus, .finder #search-form .btn:focus {
-  background: #e21d37;
+  background: #f22f46;
   color: #fff;
 }
 /* line 24, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
@@ -128,7 +128,7 @@ legend small {
 }
 /* line 28, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .edit.item-page .btn-toolbar .btn:disabled:hover, .pager.pagenav a:disabled:hover, p.readmore .btn:disabled:hover, .contact .form-actions .btn:disabled:hover, #contact-form .controls .btn-primary.validate:disabled:hover, .profile .btn:disabled:hover, .login .btn:disabled:hover, .logout .btn:disabled:hover, .registration .btn:disabled:hover, .profile-edit .btn:disabled:hover, .remind .btn:disabled:hover, .reset .btn:disabled:hover, .search #searchForm .btn:disabled:hover, .finder #searchForm .btn:disabled:hover, .search #search-form .btn:disabled:hover, .finder #search-form .btn:disabled:hover {
-  background: #e84a5f;
+  background: #f55f71;
 }
 /* line 35, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .btn {
@@ -154,7 +154,7 @@ legend small {
   line-height: 1.15;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
-  background: #e84a5f;
+  background: #f55f71;
   color: #fff;
   border: 1px solid transparent;
   vertical-align: middle;
@@ -165,7 +165,7 @@ legend small {
 }
 /* line 65, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-  background: #e21d37;
+  background: #f22f46;
   color: #fff;
 }
 /* line 71, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
@@ -183,7 +183,7 @@ legend small {
 }
 /* line 84, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 .btn-link {
-  color: #e84a5f;
+  color: #f55f71;
 }
 /* line 89, templates/g5_helium/scss/helium-joomla/styles/_core.scss */
 table.table-bordered {
@@ -842,7 +842,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 /* line 112, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 .moduletable #login-form .control-group .input-prepend .add-on [class^="icon-"], .moduletable #login-form .control-group .input-prepend .add-on [class*=" icon-"] {
   width: auto;
-  background: #e84a5f;
+  background: #f55f71;
   padding: 0.45rem 1rem;
   border-radius: 3px;
 }
@@ -893,7 +893,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 }
 /* line 171, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 #g-offcanvas .moduletable .nav li.active, #g-offcanvas .moduletable .nav.menu li.active {
-  background: #e3263f;
+  background: #f3394f;
 }
 /* line 174, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 #g-offcanvas .moduletable .nav li.active a, #g-offcanvas .moduletable .nav.menu li.active a {
@@ -902,7 +902,7 @@ a.thumbnail:hover, a.thumbnail:focus {
 }
 /* line 180, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 #g-offcanvas .moduletable .nav li:hover, #g-offcanvas .moduletable .nav.menu li:hover {
-  background: #e5334b;
+  background: #f4475c;
 }
 /* line 185, templates/g5_helium/scss/helium-joomla/styles/_modules.scss */
 #g-offcanvas .moduletable .nav .nav-header, #g-offcanvas .moduletable .nav.menu .nav-header {

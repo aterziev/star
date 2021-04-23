@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/starreisen2/starreisen/starreisen/templates/g5_helium/custom/config/12/layout.yaml',
-    'modified' => 1618189984,
+    'modified' => 1619173198,
     'data' => [
         'version' => 2,
         'preset' => [
